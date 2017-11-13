@@ -1641,3 +1641,134 @@ Scale3D: 1.000000 1.000000 1.000000
 [2017.11.13-05.45.32:868][516]Cmd: LevelEditor.ToggleImmersive
 [2017.11.13-05.46.37:306][224]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
 [2017.11.13-05.46.37:379][224]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.13-07.11.16:744][517]LogEditorViewport: Clicking on Actor (LMB): KillZVolume (KillZVolume)
+[2017.11.13-07.11.29:203][794]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.13-07.11.29:225][794]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.13-07.11.29:225][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-07.11.29:226][794]PIE: New page: PIE session: BaseMap (14 Nov 2017 5:11:29 am)
+[2017.11.13-07.11.29:226][794]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
+[2017.11.13-07.11.29:234][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008330s)
+[2017.11.13-07.11.29:235][794]LogAIModule: Creating AISystem for world BaseMap
+[2017.11.13-07.11.29:235][794]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2017.11.13-07.11.29:235][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.009387s)
+[2017.11.13-07.11.29:267][794]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.13-07.11.29:280][794]LogInit: FAudioDevice initialized.
+[2017.11.13-07.11.29:312][794]LogLoad: Game class is 'FirstPersonGamemode_C'
+[2017.11.13-07.11.29:315][794]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.13-18.11.29
+[2017.11.13-07.11.29:315][794]LogWorld: Bringing up level for play took: 0.002223
+[2017.11.13-07.11.29:316][794]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.13-07.11.29:316][794]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.13-07.11.29:316][794]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.13-07.11.29:317][794]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.13-07.11.29:317][794]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BaseMap -0.635
+[2017.11.13-07.11.29:317][794]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.13-07.11.33:945][329]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.13-07.11.33:985][329]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.13-07.11.35:554][500]LogEditorViewport: Clicking on Actor (LMB): KillZVolume (KillZVolume)
+[2017.11.13-07.12.14:167][962]LogSavePackage: Save=246.90ms
+[2017.11.13-07.12.14:167][962]LogSavePackage: Moving 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/BaseMap_Auto28E4D0EBD49BCC8BDB53FE98B022EF86F.tmp' to 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Maps/BaseMap_Auto2.umap'
+[2017.11.13-07.12.14:170][962]LogSavePackage: Display: Finished SavePackage Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Maps/BaseMap_Auto2.umap
+[2017.11.13-07.12.14:176][962]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BaseMap' took 0.313
+[2017.11.13-07.12.14:176][962]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.313
+[2017.11.13-07.12.15:204][966]LogEditorViewport: Clicking on Actor (LMB): KillZVolume (KillZVolume)
+[2017.11.13-07.12.26:791][185]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.13-07.12.26:807][185]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.13-07.12.26:807][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-07.12.26:807][185]PIE: New page: PIE session: BaseMap (14 Nov 2017 5:12:26 am)
+[2017.11.13-07.12.26:807][185]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
+[2017.11.13-07.12.26:815][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007700s)
+[2017.11.13-07.12.26:816][185]LogAIModule: Creating AISystem for world BaseMap
+[2017.11.13-07.12.26:816][185]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2017.11.13-07.12.26:816][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.008749s)
+[2017.11.13-07.12.26:847][185]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.13-07.12.26:858][185]LogInit: FAudioDevice initialized.
+[2017.11.13-07.12.26:889][185]LogLoad: Game class is 'FirstPersonGamemode_C'
+[2017.11.13-07.12.26:892][185]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.13-18.12.26
+[2017.11.13-07.12.26:892][185]LogWorld: Bringing up level for play took: 0.002158
+[2017.11.13-07.12.26:893][185]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.13-07.12.26:893][185]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.13-07.12.26:893][185]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.13-07.12.26:894][185]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.13-07.12.26:894][185]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BaseMap 0.942
+[2017.11.13-07.12.26:894][185]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.13-07.12.29:109][441]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.11.13-07.12.29:109][441]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.11.13-07.12.29:109][441]LogNet: Browse: /Game/Maps/BaseMap
+[2017.11.13-07.12.29:110][441]LogLoad: LoadMap: /Game/Maps/BaseMap
+[2017.11.13-07.12.29:148][441]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
+[2017.11.13-07.12.29:156][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007867s)
+[2017.11.13-07.12.29:156][441]LogAIModule: Creating AISystem for world BaseMap
+[2017.11.13-07.12.29:156][441]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2017.11.13-07.12.29:157][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.008749s)
+[2017.11.13-07.12.29:157][441]LogLoad: Game class is 'FirstPersonGamemode_C'
+[2017.11.13-07.12.29:159][441]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.13-18.12.29
+[2017.11.13-07.12.29:159][441]LogWorld: Bringing up level for play took: 0.001875
+[2017.11.13-07.12.29:159][441]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.13-07.12.29:159][441]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.13-07.12.29:159][441]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.13-07.12.29:160][441]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.13-07.12.29:160][441]LogLoad: Took 0.050675 seconds to LoadMap(/Game/Maps/UEDPIE_0_BaseMap)
+[2017.11.13-07.12.34:366][ 49]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.13-07.12.34:407][ 49]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.13-07.12.35:817][195]LogEditorViewport: Clicking on Actor (LMB): KillZVolume (KillZVolume)
+[2017.11.13-07.13.21:420][ 40]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.13-07.13.21:436][ 40]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.13-07.13.21:436][ 40]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-07.13.21:436][ 40]PIE: New page: PIE session: BaseMap (14 Nov 2017 5:13:21 am)
+[2017.11.13-07.13.21:436][ 40]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
+[2017.11.13-07.13.21:443][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007316s)
+[2017.11.13-07.13.21:444][ 40]LogAIModule: Creating AISystem for world BaseMap
+[2017.11.13-07.13.21:444][ 40]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2017.11.13-07.13.21:444][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.008199s)
+[2017.11.13-07.13.21:472][ 40]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.13-07.13.21:483][ 40]LogInit: FAudioDevice initialized.
+[2017.11.13-07.13.21:518][ 40]LogLoad: Game class is 'FirstPersonGamemode_C'
+[2017.11.13-07.13.21:521][ 40]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.13-18.13.21
+[2017.11.13-07.13.21:521][ 40]LogWorld: Bringing up level for play took: 0.002043
+[2017.11.13-07.13.21:522][ 40]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.13-07.13.21:522][ 40]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.13-07.13.21:522][ 40]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.13-07.13.21:523][ 40]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.13-07.13.21:523][ 40]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BaseMap -0.429
+[2017.11.13-07.13.21:523][ 40]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.13-07.13.24:449][371]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.11.13-07.13.24:449][371]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.11.13-07.13.24:449][371]LogNet: Browse: /Game/Maps/BaseMap
+[2017.11.13-07.13.24:449][371]LogLoad: LoadMap: /Game/Maps/BaseMap
+[2017.11.13-07.13.24:482][371]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
+[2017.11.13-07.13.24:489][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007159s)
+[2017.11.13-07.13.24:489][371]LogAIModule: Creating AISystem for world BaseMap
+[2017.11.13-07.13.24:489][371]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2017.11.13-07.13.24:490][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.008022s)
+[2017.11.13-07.13.24:490][371]LogLoad: Game class is 'FirstPersonGamemode_C'
+[2017.11.13-07.13.24:492][371]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.13-18.13.24
+[2017.11.13-07.13.24:492][371]LogWorld: Bringing up level for play took: 0.001820
+[2017.11.13-07.13.24:492][371]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.13-07.13.24:492][371]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.13-07.13.24:492][371]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.13-07.13.24:493][371]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.13-07.13.24:493][371]LogLoad: Took 0.043970 seconds to LoadMap(/Game/Maps/UEDPIE_0_BaseMap)
+[2017.11.13-07.13.27:584][729]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.11.13-07.13.27:584][729]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.11.13-07.13.27:584][729]LogNet: Browse: /Game/Maps/BaseMap
+[2017.11.13-07.13.27:585][729]LogLoad: LoadMap: /Game/Maps/BaseMap
+[2017.11.13-07.13.27:624][729]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
+[2017.11.13-07.13.27:631][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007028s)
+[2017.11.13-07.13.27:632][729]LogAIModule: Creating AISystem for world BaseMap
+[2017.11.13-07.13.27:632][729]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2017.11.13-07.13.27:632][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.007875s)
+[2017.11.13-07.13.27:632][729]LogLoad: Game class is 'FirstPersonGamemode_C'
+[2017.11.13-07.13.27:634][729]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.13-18.13.27
+[2017.11.13-07.13.27:634][729]LogWorld: Bringing up level for play took: 0.001848
+[2017.11.13-07.13.27:635][729]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.13-07.13.27:635][729]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.13-07.13.27:635][729]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.13-07.13.27:636][729]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.13-07.13.27:636][729]LogLoad: Took 0.051370 seconds to LoadMap(/Game/Maps/UEDPIE_0_BaseMap)
+[2017.11.13-07.13.28:791][865]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.13-07.13.28:827][865]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.13-07.13.31:989][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BaseMap" FILE="Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.13-07.13.32:271][202]LogSavePackage: Save=238.44ms
+[2017.11.13-07.13.32:271][202]LogSavePackage: Moving 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/BaseMap38CA1F0446D839314252479BB19CBA77.tmp' to 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap'
+[2017.11.13-07.13.32:278][202]LogSavePackage: Display: Finished SavePackage Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap
+[2017.11.13-07.13.32:301][202]LogFileHelpers: Saving map 'BaseMap' took 0.385
