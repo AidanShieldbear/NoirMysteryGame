@@ -1008,3 +1008,67 @@ LogInit: Object subsystem initialized
 [2017.11.14-10.11.07:991][433]LogSavePackage: Save=91.23ms
 [2017.11.14-10.11.07:991][433]LogSavePackage: Moving 'D:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/House01_BuiltData4F56A48347CF5BAF0868C5930DB53158.tmp' to 'D:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/House01_BuiltData.uasset'
 [2017.11.14-10.11.07:994][433]LogSavePackage: Display: Finished SavePackage D:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/House01_BuiltData.uasset
+[2017.11.14-10.13.40:579][240]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.14-10.13.40:592][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-10.13.40:592][240]PIE: New page: PIE session: House01 (15 Nov 2017 8:13:40 am)
+[2017.11.14-10.13.40:593][240]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_House01
+[2017.11.14-10.13.40:639][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046761s)
+[2017.11.14-10.13.40:640][240]LogAIModule: Creating AISystem for world House01
+[2017.11.14-10.13.40:640][240]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2017.11.14-10.13.40:640][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House01.House01 to /Game/Maps/UEDPIE_0_House01.House01 (0.047828s)
+[2017.11.14-10.13.40:659][240]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.14-10.13.40:676][240]LogInit: FAudioDevice initialized.
+[2017.11.14-10.13.40:709][240]LogLoad: Game class is 'FirstPersonGamemode_C'
+[2017.11.14-10.13.40:713][240]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House01.House01 up for play (max tick rate 60) at 2017.11.14-21.13.40
+[2017.11.14-10.13.40:713][240]LogWorld: Bringing up level for play took: 0.002591
+[2017.11.14-10.13.40:713][240]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-10.13.40:714][240]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-10.13.40:714][240]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-10.13.40:715][240]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-10.13.40:715][240]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_House01 0.61
+[2017.11.14-10.14.01:998][501]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.14-10.14.02:011][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-10.14.02:012][501]PIE: New page: PIE session: House01 (15 Nov 2017 8:14:02 am)
+[2017.11.14-10.14.02:012][501]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_House01
+[2017.11.14-10.14.02:034][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022551s)
+[2017.11.14-10.14.02:035][501]LogAIModule: Creating AISystem for world House01
+[2017.11.14-10.14.02:035][501]LogPlayLevel: PIE: World Init took: (0.000634s)
+[2017.11.14-10.14.02:035][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House01.House01 to /Game/Maps/UEDPIE_0_House01.House01 (0.023468s)
+[2017.11.14-10.14.02:051][501]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.14-10.14.02:065][501]LogInit: FAudioDevice initialized.
+[2017.11.14-10.14.02:097][501]LogLoad: Game class is 'FirstPersonGamemode_C'
+[2017.11.14-10.14.02:100][501]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House01.House01 up for play (max tick rate 60) at 2017.11.14-21.14.02
+[2017.11.14-10.14.02:101][501]LogWorld: Bringing up level for play took: 0.002496
+[2017.11.14-10.14.02:101][501]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-10.14.02:101][501]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-10.14.02:101][501]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-10.14.02:102][501]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-10.14.02:102][501]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_House01 -0.002
+[2017.11.14-10.19.48:665][659]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.14-10.19.48:679][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-10.19.48:679][659]PIE: New page: PIE session: House01 (15 Nov 2017 8:19:48 am)
+[2017.11.14-10.19.48:679][659]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_House01
+[2017.11.14-10.19.48:702][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023170s)
+[2017.11.14-10.19.48:703][659]LogAIModule: Creating AISystem for world House01
+[2017.11.14-10.19.48:703][659]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2017.11.14-10.19.48:703][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House01.House01 to /Game/Maps/UEDPIE_0_House01.House01 (0.024236s)
+[2017.11.14-10.19.48:723][659]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.14-10.19.48:738][659]LogInit: FAudioDevice initialized.
+[2017.11.14-10.19.48:768][659]LogLoad: Game class is 'FirstPersonGamemode_C'
+[2017.11.14-10.19.48:771][659]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House01.House01 up for play (max tick rate 60) at 2017.11.14-21.19.48
+[2017.11.14-10.19.48:771][659]LogWorld: Bringing up level for play took: 0.002501
+[2017.11.14-10.19.48:772][659]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-10.19.48:772][659]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-10.19.48:772][659]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-10.19.48:773][659]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-10.19.48:773][659]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_House01 0.668
+[2017.11.14-10.22.59:701][464]LogEditorViewport: Clicking on Actor (LMB): BP_InteractObject_C (BP_InteractObject3)
+[2017.11.14-10.23.06:478][869]LogEditorViewport: Clicking on Actor (LMB): BP_InteractObject_C (BP_InteractObject4)
+[2017.11.14-10.23.15:218][392]LogEditorViewport: Clicking on Actor (LMB): BP_InteractObject_C (BP_InteractObject2)
+[2017.11.14-10.23.19:239][632]LogEditorViewport: Clicking on Actor (LMB): BP_InteractObject_C (BP_InteractObject5)
+[2017.11.14-10.23.23:211][869]LogEditorViewport: Clicking on Actor (LMB): BP_InteractObject_C (BP_InteractObject6)
+[2017.11.14-10.23.31:381][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/House01" FILE="D:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/House01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.14-10.23.31:751][345]LogSavePackage: Save=346.47ms
+[2017.11.14-10.23.31:752][345]LogSavePackage: Moving 'D:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/House01B4C499374A80BB33E034D7A6C9EEFD60.tmp' to 'D:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/House01.umap'
+[2017.11.14-10.23.31:753][345]LogSavePackage: Display: Finished SavePackage D:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/House01.umap
+[2017.11.14-10.23.31:775][345]LogFileHelpers: Saving map 'House01' took 0.532
