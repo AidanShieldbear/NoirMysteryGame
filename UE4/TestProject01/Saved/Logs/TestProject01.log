@@ -1072,3 +1072,28 @@ LogInit: Object subsystem initialized
 [2017.11.14-10.23.31:752][345]LogSavePackage: Moving 'D:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/House01B4C499374A80BB33E034D7A6C9EEFD60.tmp' to 'D:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/House01.umap'
 [2017.11.14-10.23.31:753][345]LogSavePackage: Display: Finished SavePackage D:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/House01.umap
 [2017.11.14-10.23.31:775][345]LogFileHelpers: Saving map 'House01' took 0.532
+[2017.11.14-10.24.21:487][776]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.14-10.24.21:500][776]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-10.24.21:500][776]PIE: New page: PIE session: House01 (15 Nov 2017 8:24:21 am)
+[2017.11.14-10.24.21:501][776]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_House01
+[2017.11.14-10.24.21:525][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024449s)
+[2017.11.14-10.24.21:526][776]LogAIModule: Creating AISystem for world House01
+[2017.11.14-10.24.21:526][776]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2017.11.14-10.24.21:526][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House01.House01 to /Game/Maps/UEDPIE_0_House01.House01 (0.025418s)
+[2017.11.14-10.24.21:543][776]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.14-10.24.21:557][776]LogInit: FAudioDevice initialized.
+[2017.11.14-10.24.21:591][776]LogLoad: Game class is 'FirstPersonGamemode_C'
+[2017.11.14-10.24.21:595][776]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House01.House01 up for play (max tick rate 60) at 2017.11.14-21.24.21
+[2017.11.14-10.24.21:595][776]LogWorld: Bringing up level for play took: 0.002523
+[2017.11.14-10.24.21:595][776]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-10.24.21:596][776]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.14-10.24.21:596][776]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-10.24.21:596][776]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.14-10.24.21:597][776]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_House01 -0.508
+[2017.11.14-10.25.20:624][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesh_standing-lamp_draft)
+[2017.11.14-10.25.25:824][613]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesh_standing-lamp_draft)
+[2017.11.14-10.25.38:092][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/House01" FILE="D:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/House01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.14-10.25.38:458][337]LogSavePackage: Save=344.32ms
+[2017.11.14-10.25.38:458][337]LogSavePackage: Moving 'D:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/House01F186444E4C6083171C5518941904F057.tmp' to 'D:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/House01.umap'
+[2017.11.14-10.25.38:460][337]LogSavePackage: Display: Finished SavePackage D:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/House01.umap
+[2017.11.14-10.25.38:478][337]LogFileHelpers: Saving map 'House01' took 0.515
