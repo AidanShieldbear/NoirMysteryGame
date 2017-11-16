@@ -707,3 +707,16 @@ LogInit: Object subsystem initialized
 [2017.11.16-11.09.35:439][526]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/ObjectInteraction_Auto1A79C159E48339ADC083F30A76B2DB016.tmp' to '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Blueprints/ObjectInteraction_Auto1.uasset'
 [2017.11.16-11.09.35:454][526]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Blueprints/ObjectInteraction_Auto1.uasset
 [2017.11.16-11.09.35:454][526]LogFileHelpers: Auto-saving content packages took 0.240
+[2017.11.16-12.12.09:717][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerCharacter" FILE="../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Blueprints/BP_PlayerCharacter.uasset" SILENT=true
+[2017.11.16-12.12.10:058][982]LogSavePackage: Save=322.81ms
+[2017.11.16-12.12.10:058][982]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/BP_PlayerCharacter2F5EB8214A5E4F50F599C2BFC88C62F6.tmp' to '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Blueprints/BP_PlayerCharacter.uasset'
+[2017.11.16-12.12.10:065][982]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Blueprints/BP_PlayerCharacter.uasset
+[2017.11.16-12.12.10:089][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ObjectInteraction" FILE="../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Blueprints/ObjectInteraction.uasset" SILENT=true
+[2017.11.16-12.12.10:152][982]LogSavePackage: Save=51.59ms
+[2017.11.16-12.12.10:152][982]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/ObjectInteraction2AF21ACB4B013A5A4445AFA9C695D1E3.tmp' to '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Blueprints/ObjectInteraction.uasset'
+[2017.11.16-12.12.10:176][982]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Blueprints/ObjectInteraction.uasset
+[2017.11.16-12.12.25:571][982]LogPackageName: SearchForPackageOnDisk took   1.232s, but failed to resolve None.umap.
+[2017.11.16-12.12.25:856][982]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.16-12.12.31:350][982]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.16-12.13.05:462][983]Cmd: QUIT_EDITOR
+[2017.11.16-12.13.23:738][983]LogExit: Preparing to exit.
