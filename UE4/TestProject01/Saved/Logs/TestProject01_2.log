@@ -476,3 +476,7 @@ LogInit: Object subsystem initialized
 [2017.11.16-13.15.36:328][171]LogSavePackage: Save=116.08ms
 [2017.11.16-13.15.36:328][171]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/BaseMap_BuiltDataC13B474A4715906325C3E4ADA0EDEA02.tmp' to '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap_BuiltData.uasset'
 [2017.11.16-13.15.36:330][171]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap_BuiltData.uasset
+[2017.11.16-13.18.28:627][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ObjectInteraction" FILE="../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Blueprints/ObjectInteraction.uasset" SILENT=true
+[2017.11.16-13.18.28:677][ 23]LogSavePackage: Save=34.90ms
+[2017.11.16-13.18.28:678][ 23]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/ObjectInteraction0B2E3C12451791BBA64953A37D5FC62D.tmp' to '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Blueprints/ObjectInteraction.uasset'
+[2017.11.16-13.18.28:679][ 23]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Blueprints/ObjectInteraction.uasset
