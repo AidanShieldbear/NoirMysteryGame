@@ -480,3 +480,88 @@ LogInit: Object subsystem initialized
 [2017.11.16-13.18.28:677][ 23]LogSavePackage: Save=34.90ms
 [2017.11.16-13.18.28:678][ 23]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/ObjectInteraction0B2E3C12451791BBA64953A37D5FC62D.tmp' to '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Blueprints/ObjectInteraction.uasset'
 [2017.11.16-13.18.28:679][ 23]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Blueprints/ObjectInteraction.uasset
+[2017.11.16-13.35.57:728][189]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BaseMap' took 0.024
+[2017.11.16-13.35.57:730][189]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_PlayerCharacter] ([1] browsable assets)...
+[2017.11.16-13.35.57:730][189]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_PlayerCharacter]
+[2017.11.16-13.35.57:855][189]LogSavePackage: Save=102.60ms
+[2017.11.16-13.35.57:855][189]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/BP_PlayerCharacter_Auto2752DAE724B34217BC261C690988DF024.tmp' to '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Blueprints/BP_PlayerCharacter_Auto2.uasset'
+[2017.11.16-13.35.57:857][189]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Blueprints/BP_PlayerCharacter_Auto2.uasset
+[2017.11.16-13.35.57:857][189]LogFileHelpers: Auto-saving content packages took 0.128
+[2017.11.16-13.37.20:080][642]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2017.11.16-13.37.20:144][642]LogBlueprint: Error: [Compiler BP_PlayerCharacter] This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.11.16-13.37.20:411][642]LogBlueprint: Warning: [Compiler BP_PlayerCharacter] [5063.39] Compile of BP_PlayerCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 331 ms] (/Game/Blueprints/BP_PlayerCharacter.BP_PlayerCharacter)
+[2017.11.16-13.37.42:679][221]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2017.11.16-13.37.42:726][221]LogBlueprint: Error: [Compiler BP_PlayerCharacter] This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.11.16-13.37.42:948][221]LogBlueprint: Warning: [Compiler BP_PlayerCharacter] [5085.93] Compile of BP_PlayerCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 268 ms] (/Game/Blueprints/BP_PlayerCharacter.BP_PlayerCharacter)
+[2017.11.16-13.38.27:009][337]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2017.11.16-13.38.36:901][470]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.16-13.38.36:929][470]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.16-13.38.36:930][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-13.38.36:930][470]PIE: New page: PIE session: BaseMap (17 Nov 2017 11:38:36 am)
+[2017.11.16-13.38.36:930][470]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
+[2017.11.16-13.38.36:939][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008401s)
+[2017.11.16-13.38.36:940][470]LogAIModule: Creating AISystem for world BaseMap
+[2017.11.16-13.38.36:940][470]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2017.11.16-13.38.36:940][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.010105s)
+[2017.11.16-13.38.36:964][470]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.16-13.38.36:971][470]LogInit: FAudioDevice initialized.
+[2017.11.16-13.38.37:004][470]LogLoad: Game class is 'FirstPersonGamemode_C'
+[2017.11.16-13.38.37:006][470]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.38.37
+[2017.11.16-13.38.37:007][470]LogWorld: Bringing up level for play took: 0.002517
+[2017.11.16-13.38.37:008][470]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-13.38.37:008][470]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-13.38.37:008][470]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.16-13.38.37:009][470]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.16-13.38.37:009][470]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BaseMap 0.975
+[2017.11.16-13.38.37:010][470]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.16-13.39.58:208][ 77]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.11.16-13.39.58:208][ 77]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.11.16-13.39.58:213][ 77]LogNet: Browse: /Game/Maps/BaseMap
+[2017.11.16-13.39.58:214][ 77]LogLoad: LoadMap: /Game/Maps/BaseMap
+[2017.11.16-13.39.58:278][ 77]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
+[2017.11.16-13.39.58:286][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008010s)
+[2017.11.16-13.39.58:287][ 77]LogAIModule: Creating AISystem for world BaseMap
+[2017.11.16-13.39.58:287][ 77]LogPlayLevel: PIE: World Init took: (0.001109s)
+[2017.11.16-13.39.58:288][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.009854s)
+[2017.11.16-13.39.58:288][ 77]LogLoad: Game class is 'FirstPersonGamemode_C'
+[2017.11.16-13.39.58:292][ 77]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.39.58
+[2017.11.16-13.39.58:293][ 77]LogWorld: Bringing up level for play took: 0.004099
+[2017.11.16-13.39.58:295][ 77]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-13.39.58:295][ 77]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-13.39.58:295][ 77]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.16-13.39.58:297][ 77]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.16-13.39.58:315][ 77]LogLoad: Took 0.100916 seconds to LoadMap(/Game/Maps/UEDPIE_0_BaseMap)
+[2017.11.16-13.40.06:391][ 29]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.11.16-13.40.06:391][ 29]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.11.16-13.40.06:391][ 29]LogNet: Browse: /Game/Maps/BaseMap
+[2017.11.16-13.40.06:391][ 29]LogLoad: LoadMap: /Game/Maps/BaseMap
+[2017.11.16-13.40.06:416][ 29]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
+[2017.11.16-13.40.06:423][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007032s)
+[2017.11.16-13.40.06:424][ 29]LogAIModule: Creating AISystem for world BaseMap
+[2017.11.16-13.40.06:424][ 29]LogPlayLevel: PIE: World Init took: (0.000834s)
+[2017.11.16-13.40.06:424][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.008579s)
+[2017.11.16-13.40.06:424][ 29]LogLoad: Game class is 'FirstPersonGamemode_C'
+[2017.11.16-13.40.06:427][ 29]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.40.06
+[2017.11.16-13.40.06:427][ 29]LogWorld: Bringing up level for play took: 0.002455
+[2017.11.16-13.40.06:428][ 29]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-13.40.06:428][ 29]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.16-13.40.06:428][ 29]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.16-13.40.06:429][ 29]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.16-13.40.06:430][ 29]LogLoad: Took 0.038135 seconds to LoadMap(/Game/Maps/UEDPIE_0_BaseMap)
+[2017.11.16-13.41.48:673][189]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.16-13.41.48:708][189]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.16-13.44.46:584][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BaseMap" FILE="../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.16-13.44.46:896][ 66]LogSavePackage: Save=228.00ms
+[2017.11.16-13.44.46:896][ 66]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/BaseMapC8F7A6E94A46C3B0EBBDE2B882E5F620.tmp' to '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap'
+[2017.11.16-13.44.46:910][ 66]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap
+[2017.11.16-13.44.47:140][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BaseMap_BuiltData" FILE="../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap_BuiltData.uasset" SILENT=true
+[2017.11.16-13.44.47:236][ 66]LogSavePackage: Save=53.97ms
+[2017.11.16-13.44.47:237][ 66]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/BaseMap_BuiltData44D1C17341EA9382D8A256A0B8D9037C.tmp' to '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap_BuiltData.uasset'
+[2017.11.16-13.44.47:238][ 66]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap_BuiltData.uasset
+[2017.11.16-13.54.47:045][319]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BaseMap' took 0.029
+[2017.11.16-13.54.47:047][319]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_PlayerCharacter] ([1] browsable assets)...
+[2017.11.16-13.54.47:048][319]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_PlayerCharacter]
+[2017.11.16-13.54.47:329][319]LogSavePackage: Save=167.39ms
+[2017.11.16-13.54.47:329][319]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/BP_PlayerCharacter_Auto32B4B909A4DE2E458E653918568DADA41.tmp' to '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Blueprints/BP_PlayerCharacter_Auto3.uasset'
+[2017.11.16-13.54.47:331][319]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Blueprints/BP_PlayerCharacter_Auto3.uasset
+[2017.11.16-13.54.47:332][319]LogFileHelpers: Auto-saving content packages took 0.286
