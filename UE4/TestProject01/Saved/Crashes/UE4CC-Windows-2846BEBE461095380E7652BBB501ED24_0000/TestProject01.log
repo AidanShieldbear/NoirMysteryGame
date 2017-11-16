@@ -1,0 +1,492 @@
+﻿Log file open, 11/15/17 14:36:01
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: TestProject01
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1058615279) SRandInit(-1058615279).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3709383, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 5.412547
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3709383
+LogInit: Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Oct 20 2017 10:39:19
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.15-03.36.05:416][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.15-03.36.05:416][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.15-03.36.05:487][  0]LogInit: Computer: CHRIS-PC
+[2017.11.15-03.36.05:487][  0]LogInit: User: Chris
+[2017.11.15-03.36.05:487][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.15-03.36.05:487][  0]LogInit: High frequency timer resolution =3.117785 MHz
+[2017.11.15-03.36.05:488][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.11.15-03.36.05:488][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.15-03.36.05:488][  0]LogMemory: Process Physical Memory: 269.18 MB used, 269.18 MB peak
+[2017.11.15-03.36.05:488][  0]LogMemory: Process Virtual Memory: 263.48 MB used, 263.48 MB peak
+[2017.11.15-03.36.05:488][  0]LogMemory: Physical Memory: 3261.28 MB used,  4881.64 MB free, 8142.92 MB total
+[2017.11.15-03.36.05:488][  0]LogMemory: Virtual Memory: 616.54 MB used,  4881.64 MB free, 134217728.00 MB total
+[2017.11.15-03.36.07:239][  0]LogInit: Using OS detected language (en-GB).
+[2017.11.15-03.36.07:239][  0]LogInit: Using OS detected locale (en-AU).
+[2017.11.15-03.36.07:617][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.11.15-03.36.08:679][  0]LogInit: Setting process to per monitor DPI aware
+[2017.11.15-03.36.16:659][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.15-03.36.16:749][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
+[2017.11.15-03.36.16:749][  0]LogD3D11RHI:       1973/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.15-03.36.16:750][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.15-03.36.16:750][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.15-03.36.16:750][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.15-03.36.16:762][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.15-03.36.16:768][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.15-03.36.16:777][  0]LogWindows: EnumDisplayDevices:
+[2017.11.15-03.36.16:777][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:0 D:1)
+[2017.11.15-03.36.16:777][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:1 D:1)
+[2017.11.15-03.36.16:777][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.11.15-03.36.16:777][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.11.15-03.36.16:777][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.15-03.36.16:777][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
+[2017.11.15-03.36.16:777][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2017.11.15-03.36.16:777][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2017.11.15-03.36.16:777][  0]LogRHI: Texture pool is 1381 MB (70% of 1973 MB)
+[2017.11.15-03.36.16:832][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.15-03.36.16:972][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.11.15-03.36.17:122][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Intermediate/Shaders/WorkingDirectory/8348/).
+[2017.11.15-03.36.17:122][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Chris/AppData/Local/Temp/UnrealShaderWorkingDir/AB0AE160487DE535AB9C4F9E861E6E47/'.
+[2017.11.15-03.36.17:145][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.15-03.36.22:374][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.15-03.36.22:443][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.15-03.36.22:499][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.15-03.36.22:548][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.15-03.36.22:656][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.15-03.36.22:705][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.15-03.36.22:753][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.15-03.36.22:801][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.15-03.36.22:859][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.15-03.36.22:919][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.15-03.36.22:975][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.15-03.36.23:059][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.15-03.36.23:111][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.15-03.36.23:159][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.15-03.36.23:281][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.15-03.36.23:281][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.15-03.36.23:347][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.15-03.36.23:382][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.15-03.36.23:559][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.15-03.36.23:604][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.15-03.36.23:683][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.15-03.36.23:741][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.15-03.36.23:816][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.15-03.36.23:924][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.15-03.36.23:924][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.15-03.36.25:457][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.15-03.36.25:988][  0]LogDerivedDataCache: Loaded boot cache 0.53s 78MB C:/Users/Chris/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.11.15-03.36.25:988][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Chris/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.11.15-03.36.25:988][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.15-03.36.25:988][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.15-03.36.25:988][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.15-03.36.25:988][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.15-03.36.26:085][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.15-03.36.26:098][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Chris/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.15-03.36.26:148][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.15-03.36.26:196][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.15-03.36.26:277][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.15-03.36.26:277][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.15-03.36.35:043][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.15-03.36.37:840][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.15-03.36.37:896][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.15-03.36.37:919][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.15-03.36.37:919][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.15-03.36.37:919][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.15-03.36.37:919][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.15-03.36.38:461][  0]LogNetVersion: TestProject01 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2719823813)
+[2017.11.15-03.36.40:350][  0]LogAssetRegistry: FAssetRegistry took 0.0398 seconds to start up
+[2017.11.15-03.36.53:456][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.327591 seconds
+[2017.11.15-03.36.53:464][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.11.15-03.36.53:464][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
+[2017.11.15-03.36.53:464][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.15-03.36.53:547][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.15-03.38.03:174][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.15-03.38.03:226][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.15-03.38.04:553][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.15-03.38.05:706][  0]SourceControl: Source control is disabled
+[2017.11.15-03.38.05:722][  0]SourceControl: Source control is disabled
+[2017.11.15-03.38.05:839][  0]SourceControl: Source control is disabled
+[2017.11.15-03.38.05:920][  0]SourceControl: Source control is disabled
+[2017.11.15-03.38.07:617][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.15-03.38.07:979][  0]LogOcInput: OculusInput pre-init called
+[2017.11.15-03.38.08:827][  0]LogEngine: Initializing Engine...
+[2017.11.15-03.38.09:714][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.11.15-03.38.10:977][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.15-03.38.10:978][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.15-03.38.12:763][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.15-03.38.12:905][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.15-03.38.12:960][  0]LogInit: FAudioDevice initialized.
+[2017.11.15-03.38.13:287][  0]LogDerivedDataCache: Saved boot cache 0.33s 78MB C:/Users/Chris/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.11.15-03.38.13:297][  0]LogInit: Texture streaming: Enabled
+[2017.11.15-03.38.13:765][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.15-03.38.16:472][  0]LogInit: Transaction tracking system initialized
+[2017.11.15-03.38.18:658][  0]BlueprintLog: New page: Editor Load
+[2017.11.15-03.38.26:555][  0]LocalizationService: Localization service is disabled
+[2017.11.15-03.38.38:339][  0]LogConsoleResponse: Display: 
+[2017.11.15-03.38.41:791][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/' took 0.01s
+[2017.11.15-03.38.41:791][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.15-03.38.41:791][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.15-03.38.41:805][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.15-03.38.51:149][  0]SourceControl: Source control is disabled
+[2017.11.15-03.38.51:242][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.15-03.38.51:249][  0]LightingResults: New page: Lighting Build
+[2017.11.15-03.38.51:488][  0]MapCheck: New page: Map Check
+[2017.11.15-03.38.51:488][  0]LightingResults: New page: Lighting Build
+[2017.11.15-03.38.59:183][  0]LogAIModule: Creating AISystem for world BaseMap
+[2017.11.15-03.38.59:945][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.15-03.39.00:038][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.15-03.39.00:092][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.789ms to complete.
+[2017.11.15-03.39.00:093][  0]LogFileHelpers: Loading map 'BaseMap' took 8.850
+[2017.11.15-03.39.04:547][  0]LogCollectionManager: Loaded 0 collections in 0.002157 seconds
+[2017.11.15-03.39.05:045][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/Collections/' took 0.01s
+[2017.11.15-03.39.05:046][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Developers/Chris/Collections/' took 0.01s
+[2017.11.15-03.39.05:046][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Collections/' took 0.01s
+[2017.11.15-03.39.05:046][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.15-03.39.05:057][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2363 classes and 519 folders.
+[2017.11.15-03.39.05:353][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2017.11.15-03.39.12:327][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.11.15-03.39.12:805][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.11.15-03.39.16:499][  0]LogSlate: Took 0.040042 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.15-03.39.16:536][  0]LogSlate: Took 0.034513 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.15-03.39.16:934][  0]LogSlate: Took 0.092553 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.15-03.39.17:816][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 9 NumSamples 1 (Frame:1).
+[2017.11.15-03.39.18:867][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.15-03.39.18:867][  0]LogLoad: (Engine Initialization) Total time: 220.83 seconds
+[2017.11.15-03.39.18:867][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.15-03.39.18:898][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.15-03.39.19:359][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.11.15-03.39.19:732][  0]LogSlate: Took 0.039371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.15-03.39.19:860][  1]LogAssetRegistry: Asset discovery search completed in 159.5332 seconds
+[2017.11.15-03.39.19:934][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.15-03.39.19:934][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
+[2017.11.15-03.42.29:316][790]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (mesh_bookshelfUpper_draft)
+[2017.11.15-03.42.38:611][302]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.15-03.42.40:247][455]LogSlate: Took 0.035230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.15-03.43.56:770][345]SourceControl: On branch Chris
+[2017.11.15-03.43.56:770][345]SourceControl: Changes not staged for commit:
+[2017.11.15-03.43.56:770][345]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.15-03.43.56:770][345]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.15-03.43.56:770][345]SourceControl: 	modified:   UE4/TestProject01/Intermediate/CachedAssetRegistry.bin
+[2017.11.15-03.43.56:770][345]SourceControl: 	modified:   UE4/TestProject01/Saved/Config/Windows/Editor.ini
+[2017.11.15-03.43.56:770][345]SourceControl: 	modified:   UE4/TestProject01/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.11.15-03.43.56:770][345]SourceControl: 	deleted:    UE4/TestProject01/Saved/Logs/TestProject01-backup-2017.11.13-00.17.29.log
+[2017.11.15-03.43.56:770][345]SourceControl: 	modified:   UE4/TestProject01/Saved/Logs/TestProject01.log
+[2017.11.15-03.43.56:770][345]SourceControl: Untracked files:
+[2017.11.15-03.43.56:770][345]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.15-03.43.56:770][345]SourceControl: 	UE4/TestProject01/Saved/Config/CrashReportClient/UE4CC-Windows-2846BEBE461095380E7652BBB501ED24/
+[2017.11.15-03.43.56:770][345]SourceControl: 	UE4/TestProject01/Saved/Logs/TestProject01-backup-2017.11.15-14.36.00.log
+[2017.11.15-03.43.56:770][345]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.15-03.44.07:576][402]LogSlate: Took 0.054473 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.15-03.44.07:786][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BaseMap" FILE="../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.15-03.44.09:392][402]LogSavePackage: Save=1439.62ms
+[2017.11.15-03.44.09:393][402]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/BaseMapDCA9582349077187FC661EAFD0B51B17.tmp' to '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap'
+[2017.11.15-03.44.09:459][402]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap
+[2017.11.15-03.44.09:628][402]LogSlate: Took 0.062857 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.15-03.44.09:641][402]LogFileHelpers: Saving map 'BaseMap' took 2.031
+[2017.11.15-03.44.49:228][122]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.15-03.45.03:094][626]SourceControl: On branch Chris
+[2017.11.15-03.45.03:094][626]SourceControl: Changes not staged for commit:
+[2017.11.15-03.45.03:094][626]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.15-03.45.03:094][626]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.15-03.45.03:094][626]SourceControl: 	modified:   UE4/TestProject01/Content/Maps/BaseMap.umap
+[2017.11.15-03.45.03:094][626]SourceControl: 	modified:   UE4/TestProject01/Intermediate/CachedAssetRegistry.bin
+[2017.11.15-03.45.03:094][626]SourceControl: 	modified:   UE4/TestProject01/Saved/Config/Windows/Editor.ini
+[2017.11.15-03.45.03:094][626]SourceControl: 	modified:   UE4/TestProject01/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.11.15-03.45.03:094][626]SourceControl: 	deleted:    UE4/TestProject01/Saved/Logs/TestProject01-backup-2017.11.13-00.17.29.log
+[2017.11.15-03.45.03:094][626]SourceControl: 	modified:   UE4/TestProject01/Saved/Logs/TestProject01.log
+[2017.11.15-03.45.03:094][626]SourceControl: Untracked files:
+[2017.11.15-03.45.03:094][626]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.15-03.45.03:094][626]SourceControl: 	UE4/TestProject01/Saved/Backup/BaseMap_2017-11-15-14-44-07.umap
+[2017.11.15-03.45.03:094][626]SourceControl: 	UE4/TestProject01/Saved/Config/CrashReportClient/UE4CC-Windows-2846BEBE461095380E7652BBB501ED24/
+[2017.11.15-03.45.03:094][626]SourceControl: 	UE4/TestProject01/Saved/Logs/TestProject01-backup-2017.11.15-14.36.00.log
+[2017.11.15-03.45.03:094][626]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.15-03.50.03:723][181]LogAIModule: Creating AISystem for world House01
+[2017.11.15-03.50.03:950][181]Cmd: MAP LOAD FILE="../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Maps/House01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.15-03.50.03:951][181]LightingResults: New page: Lighting Build
+[2017.11.15-03.50.03:968][181]LoadErrors: New page: Loading map: House01.umap
+[2017.11.15-03.50.04:041][181]MapCheck: New page: Map Check
+[2017.11.15-03.50.04:041][181]LightingResults: New page: Lighting Build
+[2017.11.15-03.50.04:243][181]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.15-03.50.04:430][181]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.15-03.50.04:484][181]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.535ms to complete.
+[2017.11.15-03.50.04:484][181]LogFileHelpers: Loading map 'House01' took 0.615
+[2017.11.15-03.53.59:356][411]SourceControl: Source control is disabled
+[2017.11.15-03.59.54:095][236]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.15-04.04.27:542][ 56]LogFactory: FactoryCreateFile: CurveBase with ReimportCurveFactory (0 1 C:\Users\Chris\Documents\NoirMysteryGame\ObjecTable.csv)
+[2017.11.15-04.04.27:542][ 56]LogFactory: Error: Failed to load file 'C:\Users\Chris\Documents\NoirMysteryGame\ObjecTable.csv' to string
+[2017.11.15-04.04.41:574][ 56]LogAssetTools: Warning: Failed to import 'C:\Users\Chris\Documents\NoirMysteryGame\ObjecTable.csv'. Failed to create asset '/Game/Maps/ObjecTable'.
+Please see Output Log for details.
+[2017.11.15-04.22.56:266][  6]LogFactory: FactoryCreateFile: CurveBase with ReimportCurveFactory (0 1 ../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjecTable.csv)
+[2017.11.15-04.22.56:266][  6]LogFactory: Error: Failed to load file '../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjecTable.csv' to string
+[2017.11.15-04.23.28:381][  6]LogAssetTools: Warning: Failed to import '../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjecTable.csv'. Failed to create asset '/Game/Blueprints/ObjecTable'.
+Please see Output Log for details.
+[2017.11.15-04.23.33:829][585]LogSlate: Took 0.036389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.11.15-04.24.23:847][366]LogFactory: FactoryCreateFile: CurveBase with ReimportCurveFactory (0 1 C:\Users\Chris\Documents\NoirMysteryGame\ObjecTable2.csv)
+[2017.11.15-04.24.23:848][366]LogFactory: Error: Failed to load file 'C:\Users\Chris\Documents\NoirMysteryGame\ObjecTable2.csv' to string
+[2017.11.15-04.26.10:215][366]LogAssetTools: Warning: Failed to import 'C:\Users\Chris\Documents\NoirMysteryGame\ObjecTable2.csv'. Failed to create asset '/Game/Blueprints/ObjecTable2'.
+Please see Output Log for details.
+[2017.11.15-04.27.11:075][434]LogFactory: FactoryCreateFile: CurveBase with ReimportCurveFactory (0 1 ../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjecTable.csv)
+[2017.11.15-04.27.46:359][434]LogAssetTools: Warning: Failed to import '../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjecTable.csv'. Failed to create asset '/Game/ObjecTable'.
+Please see Output Log for details.
+[2017.11.15-04.28.36:959][635]LogSlate: Took 0.021288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.11.15-04.33.29:371][904]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/House01' took 0.011
+[2017.11.15-04.33.29:423][904]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Objects] ([1] browsable assets)...
+[2017.11.15-04.33.29:423][904]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Objects]
+[2017.11.15-04.33.29:433][904]LogSavePackage: Save=7.17ms
+[2017.11.15-04.33.29:433][904]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/Objects_Auto13C1FB1F641CD2F51482A029295C0A501.tmp' to '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Blueprints/Objects_Auto1.uasset'
+[2017.11.15-04.33.29:435][904]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Blueprints/Objects_Auto1.uasset
+[2017.11.15-04.33.29:435][904]LogFileHelpers: Auto-saving content packages took 0.031
+[2017.11.15-04.33.51:532][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Objects" FILE="../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Blueprints/Objects.uasset" SILENT=true
+[2017.11.15-04.33.51:541][543]LogSavePackage: Save=6.37ms
+[2017.11.15-04.33.51:541][543]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/Objects9D15F57449487AA8F7F0BDA541C93C97.tmp' to '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Blueprints/Objects.uasset'
+[2017.11.15-04.33.51:545][543]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Blueprints/Objects.uasset
+[2017.11.15-04.34.01:748][391]LogFactory: FactoryCreateFile: CurveBase with ReimportCurveFactory (0 1 ../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjecTable.csv)
+[2017.11.15-04.34.06:299][391]LogCSVImportFactory: Imported DataTable 'ObjecTable' - 1 Problems
+[2017.11.15-04.34.06:299][391]LogCSVImportFactory: 0:Expected column 'Name' not found in input.
+[2017.11.15-04.36.37:325][  9]LogFactory: FactoryCreateFile: CurveBase with ReimportCurveFactory (0 1 C:\Users\Chris\Documents\NoirMysteryGame\ObjectTable.csv)
+[2017.11.15-04.36.37:325][  9]LogFactory: Error: Failed to load file 'C:\Users\Chris\Documents\NoirMysteryGame\ObjectTable.csv' to string
+[2017.11.15-04.36.39:430][  9]LogAssetTools: Warning: Failed to import 'C:\Users\Chris\Documents\NoirMysteryGame\ObjectTable.csv'. Failed to create asset '/Game/Blueprints/ObjectTable'.
+Please see Output Log for details.
+[2017.11.15-04.36.43:009][ 92]LogFactory: FactoryCreateFile: CurveBase with ReimportCurveFactory (0 1 ../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjectTable.csv)
+[2017.11.15-04.36.43:009][ 92]LogFactory: Error: Failed to load file '../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjectTable.csv' to string
+[2017.11.15-04.36.46:065][ 92]LogAssetTools: Warning: Failed to import '../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjectTable.csv'. Failed to create asset '/Game/Blueprints/ObjectTable'.
+Please see Output Log for details.
+[2017.11.15-04.36.53:492][779]LogFactory: FactoryCreateFile: CurveBase with ReimportCurveFactory (0 1 C:\Users\Chris\Documents\NoirMysteryGame\ObjectTable.csv)
+[2017.11.15-04.36.53:492][779]LogFactory: Error: Failed to load file 'C:\Users\Chris\Documents\NoirMysteryGame\ObjectTable.csv' to string
+[2017.11.15-04.36.54:842][779]LogAssetTools: Warning: Failed to import 'C:\Users\Chris\Documents\NoirMysteryGame\ObjectTable.csv'. Failed to create asset '/Game/ObjectTable'.
+Please see Output Log for details.
+[2017.11.15-04.36.57:242][924]LogFactory: FactoryCreateFile: CurveBase with ReimportCurveFactory (0 1 ../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjectTable.csv)
+[2017.11.15-04.36.57:242][924]LogFactory: Error: Failed to load file '../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjectTable.csv' to string
+[2017.11.15-04.36.58:966][924]LogAssetTools: Warning: Failed to import '../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjectTable.csv'. Failed to create asset '/Game/ObjectTable'.
+Please see Output Log for details.
+[2017.11.15-04.37.11:025][858]LogFactory: FactoryCreateFile: CurveBase with ReimportCurveFactory (0 1 ../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjecTable.csv)
+[2017.11.15-04.37.17:842][858]LogAssetTools: Warning: Failed to import '../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjecTable.csv'. Failed to create asset '/Game/ObjecTable'.
+Please see Output Log for details.
+[2017.11.15-04.37.21:591][959]LogFactory: FactoryCreateFile: CurveBase with ReimportCurveFactory (0 1 ../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjecTable2.csv)
+[2017.11.15-04.37.24:215][959]LogAssetTools: Warning: Failed to import '../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjecTable2.csv'. Failed to create asset '/Game/ObjecTable2'.
+Please see Output Log for details.
+[2017.11.15-04.37.26:241][ 44]LogFactory: FactoryCreateFile: CurveBase with ReimportCurveFactory (0 1 ../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjectTable.csv)
+[2017.11.15-04.37.26:241][ 44]LogFactory: Error: Failed to load file '../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjectTable.csv' to string
+[2017.11.15-04.37.32:290][ 44]LogAssetTools: Warning: Failed to import '../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjectTable.csv'. Failed to create asset '/Game/ObjectTable'.
+Please see Output Log for details.
+[2017.11.15-04.37.42:609][233]LogFactory: FactoryCreateFile: CurveBase with ReimportCurveFactory (0 1 ../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjecTable.csv)
+[2017.11.15-04.37.49:662][233]LogCSVImportFactory: Imported DataTable 'ObjecTable' - 1 Problems
+[2017.11.15-04.37.49:662][233]LogCSVImportFactory: 0:Expected column 'Name' not found in input.
+[2017.11.15-04.42.24:602][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Objects" FILE="../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Blueprints/Objects.uasset" SILENT=true
+[2017.11.15-04.42.24:662][370]LogSavePackage: Save=44.69ms
+[2017.11.15-04.42.24:662][370]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/Objects1C2064E2431A741467AD968E82E96FA7.tmp' to '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Blueprints/Objects.uasset'
+[2017.11.15-04.42.24:666][370]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Blueprints/Objects.uasset
+[2017.11.15-04.42.25:266][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Objects" FILE="../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Blueprints/Objects.uasset" SILENT=true
+[2017.11.15-04.42.25:297][413]LogSavePackage: Save=21.79ms
+[2017.11.15-04.42.25:297][413]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/ObjectsB966DE1949C743A0027A3193A07F9D6E.tmp' to '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Blueprints/Objects.uasset'
+[2017.11.15-04.42.25:309][413]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Content/Blueprints/Objects.uasset
+[2017.11.15-04.42.30:149][770]LogFactory: FactoryCreateFile: CurveBase with ReimportCurveFactory (0 1 ../../../../../../Users/Chris/Documents/NoirMysteryGame/ObjecTable.csv)
+[2017.11.15-04.42.32:475][770]LogCSVImportFactory: Imported DataTable 'ObjecTable' - 0 Problems
+[2017.11.15-04.43.31:408][639]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/House01' took 0.010
+[2017.11.15-04.43.31:409][639]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/ObjecTable] ([1] browsable assets)...
+[2017.11.15-04.43.31:410][639]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/ObjecTable]
+[2017.11.15-04.43.31:419][639]LogSavePackage: Save=6.25ms
+[2017.11.15-04.43.31:419][639]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/ObjecTable_Auto25BA3FC0A4BCB42A207B4B1A0B12BCF9D.tmp' to '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Blueprints/ObjecTable_Auto2.uasset'
+[2017.11.15-04.43.31:421][639]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Blueprints/ObjecTable_Auto2.uasset
+[2017.11.15-04.43.31:421][639]LogFileHelpers: Auto-saving content packages took 0.012
+[2017.11.15-08.21.06:349][544]LogEditorViewport: Clicking on Actor (LMB): BP_InteractObject_C (BP_InteractObject)
+[2017.11.15-08.21.17:804][313]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2017.11.15-08.21.19:913][313]LogSlate: Took 0.030029 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.15-08.22.24:802][209]LogRenderer: Reallocating scene render targets to support 1296x900 Format 9 NumSamples 1 (Frame:1).
+[2017.11.15-08.22.57:871][875]LogSavePackage: Save=311.92ms
+[2017.11.15-08.22.57:871][875]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/House01_Auto3FBB90C344903253CCEE90696C951EB32.tmp' to '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Maps/House01_Auto3.umap'
+[2017.11.15-08.22.57:873][875]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Maps/House01_Auto3.umap
+[2017.11.15-08.22.57:878][875]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/House01' took 0.402
+[2017.11.15-08.22.57:878][875]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.402
+[2017.11.15-08.22.57:880][875]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_InteractObject] ([1] browsable assets)...
+[2017.11.15-08.22.57:932][875]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_InteractObject.BP_InteractObject]
+[2017.11.15-08.22.57:932][875]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_InteractObject]
+[2017.11.15-08.22.58:024][875]LogSavePackage: Save=75.81ms
+[2017.11.15-08.22.58:024][875]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/BP_InteractObject_Auto3223D9A144FEA63554BC2DB9F509B1DCE.tmp' to '../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Blueprints/BP_InteractObject_Auto3.uasset'
+[2017.11.15-08.22.58:026][875]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Blueprints/BP_InteractObject_Auto3.uasset
+[2017.11.15-08.22.58:026][875]LogFileHelpers: Auto-saving content packages took 0.147

@@ -1,0 +1,4 @@
+﻿Name,Description,Location
+Book,This is a book,Content\Meshes\mesh_book_draft.uasset
+Bottle,This is a bottle,Content\Meshes\mesh_bottleShort_draft.uasset
+Gun,This is a gun,Content\Meshes\mesh_gun_draft.uasset
