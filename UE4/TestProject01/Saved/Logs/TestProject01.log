@@ -1,4 +1,4 @@
-﻿Log file open, 11/17/17 00:24:38
+﻿Log file open, 11/18/17 19:40:51
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: TestProject01
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-759994478) SRandInit(-759994478).
+LogInit: Display: RandInit(1056991878) SRandInit(1056991878).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3754814, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.240024
+LogStats: Stats thread started at 0.261987
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -191,658 +191,826 @@ LogInit: Compiled (64-bit): Nov 14 2017 02:05:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  
+LogInit: Command line: -EpicPortal 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.16-13.24.40:306][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.16-13.24.40:306][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.16-13.24.40:335][  0]LogInit: Computer: DESKTOP-UJKLS57
-[2017.11.16-13.24.40:335][  0]LogInit: User: i76800K
-[2017.11.16-13.24.40:335][  0]LogInit: CPU Page size=4096, Cores=6
-[2017.11.16-13.24.40:335][  0]LogInit: High frequency timer resolution =3.320310 MHz
-[2017.11.16-13.24.40:336][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2017.11.16-13.24.40:336][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.16-13.24.40:336][  0]LogMemory: Process Physical Memory: 274.03 MB used, 274.03 MB peak
-[2017.11.16-13.24.40:336][  0]LogMemory: Process Virtual Memory: 271.63 MB used, 271.63 MB peak
-[2017.11.16-13.24.40:336][  0]LogMemory: Physical Memory: 8744.94 MB used,  7474.10 MB free, 16219.04 MB total
-[2017.11.16-13.24.40:336][  0]LogMemory: Virtual Memory: 674.98 MB used,  7474.10 MB free, 134217728.00 MB total
-[2017.11.16-13.24.40:626][  0]LogInit: Using OS detected language (en-GB).
-[2017.11.16-13.24.40:626][  0]LogInit: Using OS detected locale (en-AU).
-[2017.11.16-13.24.40:636][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2017.11.16-13.24.41:136][  0]LogInit: Setting process to per monitor DPI aware
-[2017.11.16-13.24.41:463][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.16-13.24.41:523][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2017.11.16-13.24.41:524][  0]LogD3D11RHI:       8096/0/8109 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.11.16-13.24.41:526][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.11.16-13.24.41:526][  0]LogD3D11RHI:       0/0/8109 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.11.16-13.24.41:526][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.16-13.24.41:537][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.16-13.24.41:537][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2017.11.16-13.24.41:537][  0]LogWindows: EnumDisplayDevices:
-[2017.11.16-13.24.41:537][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2017.11.16-13.24.41:537][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2017.11.16-13.24.41:537][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.11.16-13.24.41:537][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.11.16-13.24.41:538][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.11.16-13.24.41:538][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2017.11.16-13.24.41:538][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.11.16-13.24.41:538][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.11.16-13.24.41:538][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
-[2017.11.16-13.24.41:564][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.16-13.24.41:613][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.11.16-13.24.41:666][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Intermediate/Shaders/WorkingDirectory/10808/).
-[2017.11.16-13.24.41:666][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/i7 6800K/AppData/Local/Temp/UnrealShaderWorkingDir/233812464152FE0EC94E0CACF003D0FB/'.
-[2017.11.16-13.24.41:666][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.11.16-13.24.42:867][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.16-13.24.42:932][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.11.16-13.24.43:000][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.16-13.24.43:066][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.11.16-13.24.43:127][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.11.16-13.24.43:203][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.16-13.24.43:298][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.16-13.24.43:398][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.16-13.24.43:450][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.11.16-13.24.43:511][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.16-13.24.43:568][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.16-13.24.43:657][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.16-13.24.43:712][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.16-13.24.43:767][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.16-13.24.43:876][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.16-13.24.43:876][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.16-13.24.43:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.11.16-13.24.43:990][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.11.16-13.24.44:115][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.11.16-13.24.44:164][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.11.16-13.24.44:223][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.16-13.24.44:277][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.16-13.24.44:381][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.16-13.24.44:461][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.11.16-13.24.44:461][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.11.16-13.24.45:167][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.11.16-13.24.45:275][  0]LogDerivedDataCache: Loaded boot cache 0.11s 80MB C:/Users/i7 6800K/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.11.16-13.24.45:275][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/i7 6800K/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2017.11.16-13.24.45:275][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.16-13.24.45:275][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.16-13.24.45:275][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.16-13.24.45:275][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.16-13.24.45:301][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.16-13.24.45:314][  0]LogDerivedDataCache: Using Local data cache path C:/Users/i7 6800K/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.16-13.24.45:339][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.16-13.24.45:339][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.16-13.24.45:340][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.16-13.24.45:340][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.16-13.24.45:766][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.16-13.24.46:246][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.16-13.24.46:299][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.16-13.24.46:299][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.16-13.24.46:299][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.11.16-13.24.46:299][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.11.16-13.24.46:299][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.11.16-13.24.46:358][  0]LogNetVersion: TestProject01 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2719823813)
-[2017.11.16-13.24.46:617][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
-[2017.11.16-13.24.47:277][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.060274 seconds
-[2017.11.16-13.24.47:282][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
-[2017.11.16-13.24.47:282][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
-[2017.11.16-13.24.47:283][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.16-13.24.47:343][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.11.16-13.24.50:333][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.16-13.24.50:395][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.16-13.24.51:340][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.16-13.24.51:969][  0]SourceControl: Source control is disabled
-[2017.11.16-13.24.51:969][  0]SourceControl: Source control is disabled
-[2017.11.16-13.24.52:049][  0]SourceControl: Source control is disabled
-[2017.11.16-13.24.52:114][  0]SourceControl: Source control is disabled
-[2017.11.16-13.24.53:337][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.16-13.24.53:687][  0]LogOcInput: OculusInput pre-init called
-[2017.11.16-13.24.54:168][  0]LogEngine: Initializing Engine...
-[2017.11.16-13.24.54:173][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.11.16-13.24.54:464][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.16-13.24.54:464][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.16-13.24.54:641][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.16-13.24.54:660][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.16-13.24.54:682][  0]LogInit: FAudioDevice initialized.
-[2017.11.16-13.24.54:775][  0]LogDerivedDataCache: Saved boot cache 0.09s 80MB C:/Users/i7 6800K/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.11.16-13.24.54:797][  0]LogInit: Texture streaming: Enabled
-[2017.11.16-13.24.54:947][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.16-13.24.55:123][  0]LogInit: Transaction tracking system initialized
-[2017.11.16-13.24.55:617][  0]BlueprintLog: New page: Editor Load
-[2017.11.16-13.24.56:966][  0]LocalizationService: Localization service is disabled
-[2017.11.16-13.24.57:997][  0]LogConsoleResponse: Display: 
-[2017.11.16-13.24.58:217][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.16-13.24.58:217][  0]LogCook: Display: Mobile HDR setting 1
-[2017.11.16-13.24.58:217][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.11.16-13.24.59:116][  0]LogFileCache: Scanning file cache for directory 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/' took 0.01s
-[2017.11.16-13.24.59:894][  0]SourceControl: Source control is disabled
-[2017.11.16-13.24.59:894][  0]Cmd: MAP LOAD FILE="Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.16-13.24.59:895][  0]LightingResults: New page: Lighting Build
-[2017.11.16-13.24.59:940][  0]MapCheck: New page: Map Check
-[2017.11.16-13.24.59:940][  0]LightingResults: New page: Lighting Build
-[2017.11.16-13.25.00:428][  0]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.25.00:461][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.16-13.25.00:492][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.16-13.25.00:576][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.187ms to complete.
-[2017.11.16-13.25.00:576][  0]LogFileHelpers: Loading map 'BaseMap' took 0.682
-[2017.11.16-13.25.00:689][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.16-13.25.00:689][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.16-13.25.00:861][  0]LogCollectionManager: Loaded 0 collections in 0.004182 seconds
-[2017.11.16-13.25.01:003][  0]LogFileCache: Scanning file cache for directory 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/Collections/' took 0.01s
-[2017.11.16-13.25.01:003][  0]LogFileCache: Scanning file cache for directory 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Developers/i76800K/Collections/' took 0.01s
-[2017.11.16-13.25.01:003][  0]LogFileCache: Scanning file cache for directory 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Collections/' took 0.01s
-[2017.11.16-13.25.01:003][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.11.16-13.25.01:020][  0]LogContentBrowser: Native class hierarchy populated in 0.0167 seconds. Added 2363 classes and 519 folders.
-[2017.11.16-13.25.01:141][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2017.11.16-13.25.01:224][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.11.16-13.25.01:306][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.11.16-13.25.01:412][  0]LogSlate: Took 0.000964 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.16-13.25.01:417][  0]LogSlate: Took 0.000391 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.16-13.25.01:425][  0]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.16-13.25.01:537][  0]LogRenderer: Reallocating scene render targets to support 1196x576 Format 10 NumSamples 1 (Frame:1).
-[2017.11.16-13.25.01:775][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.11.16-13.25.01:775][  0]LogLoad: (Engine Initialization) Total time: 24.84 seconds
-[2017.11.16-13.25.01:776][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.11.16-13.25.01:776][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.11.16-13.25.01:809][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.11.16-13.25.01:841][  0]LogSlate: Took 0.000302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.16-13.25.01:870][  1]LogAssetRegistry: Asset discovery search completed in 15.2753 seconds
-[2017.11.16-13.25.01:872][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.11.16-13.25.01:872][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
-[2017.11.16-13.25.02:803][ 85]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.16-13.25.29:509][266]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.16-13.25.29:548][266]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.25.29:548][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.16-13.25.29:549][266]PIE: New page: PIE session: BaseMap (17 Nov 2017 11:25:29 am)
-[2017.11.16-13.25.29:549][266]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
-[2017.11.16-13.25.29:558][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008549s)
-[2017.11.16-13.25.29:558][266]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.25.29:558][266]LogPlayLevel: PIE: World Init took: (0.000604s)
-[2017.11.16-13.25.29:558][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.009416s)
-[2017.11.16-13.25.29:586][266]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.16-13.25.29:597][266]LogInit: FAudioDevice initialized.
-[2017.11.16-13.25.29:644][266]LogLoad: Game class is 'FirstPersonGamemode_C'
-[2017.11.16-13.25.29:651][266]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.25.29
-[2017.11.16-13.25.29:652][266]LogWorld: Bringing up level for play took: 0.005986
-[2017.11.16-13.25.29:716][266]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
-[2017.11.16-13.25.29:716][266]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.25.29:716][266]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.25.29:716][266]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.25.29:717][266]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.25.29:717][266]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BaseMap -0.19
-[2017.11.16-13.25.29:718][266]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.26.02:584][195]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.26.02:632][195]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.26.11:418][919]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2017.11.16-13.26.11:475][919]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TestProject01
-[2017.11.16-13.26.11:475][919]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2017.11.16-13.26.11:475][919]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
-[2017.11.16-13.26.11:475][919]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2017.11.16-13.26.11:478][919]LogTemp: BranchPath = DESKTOP-UJKLS57/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-UJKLS57/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
-[2017.11.16-13.26.11:523][920]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\i7 6800K\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2017.11.16-13.26.22:875][201]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.16-13.26.22:889][201]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.26.22:889][201]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.16-13.26.22:890][201]PIE: New page: PIE session: BaseMap (17 Nov 2017 11:26:22 am)
-[2017.11.16-13.26.22:890][201]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
-[2017.11.16-13.26.22:898][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008124s)
-[2017.11.16-13.26.22:898][201]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.26.22:899][201]LogPlayLevel: PIE: World Init took: (0.000718s)
-[2017.11.16-13.26.22:899][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.009111s)
-[2017.11.16-13.26.22:918][201]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.16-13.26.22:931][201]LogInit: FAudioDevice initialized.
-[2017.11.16-13.26.22:966][201]LogLoad: Game class is 'FirstPersonGamemode_C'
-[2017.11.16-13.26.22:971][201]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.26.22
-[2017.11.16-13.26.22:972][201]LogWorld: Bringing up level for play took: 0.004824
-[2017.11.16-13.26.22:973][201]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.26.22:973][201]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.26.22:973][201]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.26.22:975][201]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.26.22:975][201]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BaseMap 1.067
-[2017.11.16-13.26.22:975][201]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.28.41:370][791]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.28.41:370][791]LogGameState: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.28.41:370][791]LogNet: Browse: /Game/Maps/BaseMap
-[2017.11.16-13.28.41:370][791]LogLoad: LoadMap: /Game/Maps/BaseMap
-[2017.11.16-13.28.41:387][791]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
-[2017.11.16-13.28.41:394][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007164s)
-[2017.11.16-13.28.41:395][791]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.28.41:395][791]LogPlayLevel: PIE: World Init took: (0.000693s)
-[2017.11.16-13.28.41:395][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.008160s)
-[2017.11.16-13.28.41:395][791]LogLoad: Game class is 'FirstPersonGamemode_C'
-[2017.11.16-13.28.41:397][791]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.28.41
-[2017.11.16-13.28.41:398][791]LogWorld: Bringing up level for play took: 0.001918
-[2017.11.16-13.28.41:398][791]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.28.41:398][791]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.28.41:398][791]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.28.41:399][791]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.28.41:400][791]LogLoad: Took 0.029551 seconds to LoadMap(/Game/Maps/UEDPIE_0_BaseMap)
-[2017.11.16-13.29.01:006][140]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.29.01:006][140]LogGameState: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.29.01:006][140]LogNet: Browse: /Game/Maps/BaseMap
-[2017.11.16-13.29.01:007][140]LogLoad: LoadMap: /Game/Maps/BaseMap
-[2017.11.16-13.29.01:022][140]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
-[2017.11.16-13.29.01:030][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008000s)
-[2017.11.16-13.29.01:031][140]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.29.01:031][140]LogPlayLevel: PIE: World Init took: (0.000643s)
-[2017.11.16-13.29.01:031][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.008944s)
-[2017.11.16-13.29.01:031][140]LogLoad: Game class is 'FirstPersonGamemode_C'
-[2017.11.16-13.29.01:033][140]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.29.01
-[2017.11.16-13.29.01:034][140]LogWorld: Bringing up level for play took: 0.001902
-[2017.11.16-13.29.01:034][140]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.29.01:034][140]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.29.01:034][140]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.29.01:035][140]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.29.01:035][140]LogLoad: Took 0.028326 seconds to LoadMap(/Game/Maps/UEDPIE_0_BaseMap)
-[2017.11.16-13.29.11:299][370]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.29.11:299][370]LogGameState: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.29.11:300][370]LogNet: Browse: /Game/Maps/BaseMap
-[2017.11.16-13.29.11:301][370]LogLoad: LoadMap: /Game/Maps/BaseMap
-[2017.11.16-13.29.11:316][370]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
-[2017.11.16-13.29.11:324][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008134s)
-[2017.11.16-13.29.11:325][370]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.29.11:325][370]LogPlayLevel: PIE: World Init took: (0.000685s)
-[2017.11.16-13.29.11:325][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.009158s)
-[2017.11.16-13.29.11:325][370]LogLoad: Game class is 'FirstPersonGamemode_C'
-[2017.11.16-13.29.11:328][370]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.29.11
-[2017.11.16-13.29.11:328][370]LogWorld: Bringing up level for play took: 0.001991
-[2017.11.16-13.29.11:328][370]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.29.11:328][370]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.29.11:328][370]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.29.11:329][370]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.29.11:329][370]LogLoad: Took 0.028585 seconds to LoadMap(/Game/Maps/UEDPIE_0_BaseMap)
-[2017.11.16-13.29.18:928][280]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.29.18:965][280]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.29.24:478][826]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2017.11.16-13.29.24:554][828]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TestProject01
-[2017.11.16-13.29.24:555][828]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2017.11.16-13.29.24:555][828]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
-[2017.11.16-13.29.24:555][828]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2017.11.16-13.29.24:555][828]LogTemp: BranchPath = DESKTOP-UJKLS57/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-UJKLS57/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
-[2017.11.16-13.29.24:557][828]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\i7 6800K\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2017.11.16-13.29.41:090][535]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.16-13.29.41:105][535]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.29.41:105][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.16-13.29.41:105][535]PIE: New page: PIE session: BaseMap (17 Nov 2017 11:29:41 am)
-[2017.11.16-13.29.41:105][535]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
-[2017.11.16-13.29.41:112][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007308s)
-[2017.11.16-13.29.41:113][535]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.29.41:113][535]LogPlayLevel: PIE: World Init took: (0.000588s)
-[2017.11.16-13.29.41:113][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.008131s)
-[2017.11.16-13.29.41:133][535]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.16-13.29.41:145][535]LogInit: FAudioDevice initialized.
-[2017.11.16-13.29.41:178][535]LogLoad: Game class is 'FirstPersonGamemode_C'
-[2017.11.16-13.29.41:181][535]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.29.41
-[2017.11.16-13.29.41:181][535]LogWorld: Bringing up level for play took: 0.001975
-[2017.11.16-13.29.41:182][535]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.29.41:182][535]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.29.41:182][535]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.29.41:183][535]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.29.41:183][535]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BaseMap -0.725
-[2017.11.16-13.29.41:183][535]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.29.42:162][645]Cmd: LevelEditor.ToggleImmersive
-[2017.11.16-13.29.42:323][646]LogRenderer: Reallocating scene render targets to support 1404x708 Format 10 NumSamples 1 (Frame:112).
-[2017.11.16-13.29.42:396][647]LogRenderer: Reallocating scene render targets to support 1920x1040 Format 10 NumSamples 1 (Frame:114).
-[2017.11.16-13.30.28:673][197]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.30.28:673][197]LogGameState: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.30.28:673][197]LogNet: Browse: /Game/Maps/BaseMap
-[2017.11.16-13.30.28:673][197]LogLoad: LoadMap: /Game/Maps/BaseMap
-[2017.11.16-13.30.28:690][197]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
-[2017.11.16-13.30.28:697][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007130s)
-[2017.11.16-13.30.28:698][197]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.30.28:698][197]LogPlayLevel: PIE: World Init took: (0.000824s)
-[2017.11.16-13.30.28:698][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.008289s)
-[2017.11.16-13.30.28:698][197]LogLoad: Game class is 'FirstPersonGamemode_C'
-[2017.11.16-13.30.28:701][197]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.30.28
-[2017.11.16-13.30.28:702][197]LogWorld: Bringing up level for play took: 0.002565
-[2017.11.16-13.30.28:702][197]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.30.28:702][197]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.30.28:702][197]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.30.28:703][197]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.30.28:703][197]LogLoad: Took 0.029763 seconds to LoadMap(/Game/Maps/UEDPIE_0_BaseMap)
-[2017.11.16-13.30.47:990][509]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.30.47:990][509]LogGameState: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.30.47:990][509]LogNet: Browse: /Game/Maps/BaseMap
-[2017.11.16-13.30.47:991][509]LogLoad: LoadMap: /Game/Maps/BaseMap
-[2017.11.16-13.30.48:008][509]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
-[2017.11.16-13.30.48:019][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010254s)
-[2017.11.16-13.30.48:019][509]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.30.48:019][509]LogPlayLevel: PIE: World Init took: (0.000726s)
-[2017.11.16-13.30.48:020][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.011407s)
-[2017.11.16-13.30.48:020][509]LogLoad: Game class is 'FirstPersonGamemode_C'
-[2017.11.16-13.30.48:022][509]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.30.48
-[2017.11.16-13.30.48:022][509]LogWorld: Bringing up level for play took: 0.002198
-[2017.11.16-13.30.48:023][509]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.30.48:023][509]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.30.48:023][509]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.30.48:024][509]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.30.48:024][509]LogLoad: Took 0.033166 seconds to LoadMap(/Game/Maps/UEDPIE_0_BaseMap)
-[2017.11.16-13.30.53:619][179]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.30.53:619][179]LogGameState: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.30.53:619][179]LogNet: Browse: /Game/Maps/BaseMap
-[2017.11.16-13.30.53:619][179]LogLoad: LoadMap: /Game/Maps/BaseMap
-[2017.11.16-13.30.53:637][179]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
-[2017.11.16-13.30.53:645][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007681s)
-[2017.11.16-13.30.53:646][179]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.30.53:646][179]LogPlayLevel: PIE: World Init took: (0.000594s)
-[2017.11.16-13.30.53:646][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.008567s)
-[2017.11.16-13.30.53:646][179]LogLoad: Game class is 'FirstPersonGamemode_C'
-[2017.11.16-13.30.53:648][179]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.30.53
-[2017.11.16-13.30.53:648][179]LogWorld: Bringing up level for play took: 0.002078
-[2017.11.16-13.30.53:649][179]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.30.53:649][179]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.30.53:649][179]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.30.53:650][179]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.30.53:650][179]LogLoad: Took 0.030835 seconds to LoadMap(/Game/Maps/UEDPIE_0_BaseMap)
-[2017.11.16-13.31.07:196][803]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.31.07:196][803]LogGameState: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.31.07:197][803]LogNet: Browse: /Game/Maps/BaseMap
-[2017.11.16-13.31.07:197][803]LogLoad: LoadMap: /Game/Maps/BaseMap
-[2017.11.16-13.31.07:214][803]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
-[2017.11.16-13.31.07:222][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007463s)
-[2017.11.16-13.31.07:222][803]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.31.07:222][803]LogPlayLevel: PIE: World Init took: (0.000614s)
-[2017.11.16-13.31.07:222][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.008376s)
-[2017.11.16-13.31.07:223][803]LogLoad: Game class is 'FirstPersonGamemode_C'
-[2017.11.16-13.31.07:225][803]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.31.07
-[2017.11.16-13.31.07:225][803]LogWorld: Bringing up level for play took: 0.001937
-[2017.11.16-13.31.07:225][803]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.31.07:225][803]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.31.07:226][803]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.31.07:226][803]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.31.07:226][803]LogLoad: Took 0.029509 seconds to LoadMap(/Game/Maps/UEDPIE_0_BaseMap)
-[2017.11.16-13.31.32:416][823]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.31.32:416][823]LogGameState: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.31.32:416][823]LogNet: Browse: /Game/Maps/BaseMap
-[2017.11.16-13.31.32:417][823]LogLoad: LoadMap: /Game/Maps/BaseMap
-[2017.11.16-13.31.32:439][823]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
-[2017.11.16-13.31.32:446][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006991s)
-[2017.11.16-13.31.32:447][823]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.31.32:447][823]LogPlayLevel: PIE: World Init took: (0.000596s)
-[2017.11.16-13.31.32:447][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.007870s)
-[2017.11.16-13.31.32:447][823]LogLoad: Game class is 'FirstPersonGamemode_C'
-[2017.11.16-13.31.32:449][823]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.31.32
-[2017.11.16-13.31.32:450][823]LogWorld: Bringing up level for play took: 0.002047
-[2017.11.16-13.31.32:450][823]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.31.32:450][823]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.31.32:450][823]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.31.32:451][823]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.31.32:451][823]LogLoad: Took 0.034238 seconds to LoadMap(/Game/Maps/UEDPIE_0_BaseMap)
-[2017.11.16-13.31.37:139][384]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.31.37:139][384]LogGameState: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.31.37:139][384]LogNet: Browse: /Game/Maps/BaseMap
-[2017.11.16-13.31.37:140][384]LogLoad: LoadMap: /Game/Maps/BaseMap
-[2017.11.16-13.31.37:158][384]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
-[2017.11.16-13.31.37:165][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006899s)
-[2017.11.16-13.31.37:165][384]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.31.37:166][384]LogPlayLevel: PIE: World Init took: (0.000594s)
-[2017.11.16-13.31.37:166][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.007784s)
-[2017.11.16-13.31.37:166][384]LogLoad: Game class is 'FirstPersonGamemode_C'
-[2017.11.16-13.31.37:168][384]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.31.37
-[2017.11.16-13.31.37:168][384]LogWorld: Bringing up level for play took: 0.002158
-[2017.11.16-13.31.37:169][384]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.31.37:169][384]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.31.37:169][384]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.31.37:170][384]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.31.37:170][384]LogLoad: Took 0.030272 seconds to LoadMap(/Game/Maps/UEDPIE_0_BaseMap)
-[2017.11.16-13.31.43:632][158]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.31.43:632][158]LogGameState: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.31.43:632][158]LogNet: Browse: /Game/Maps/BaseMap
-[2017.11.16-13.31.43:632][158]LogLoad: LoadMap: /Game/Maps/BaseMap
-[2017.11.16-13.31.43:651][158]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
-[2017.11.16-13.31.43:658][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007266s)
-[2017.11.16-13.31.43:659][158]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.31.43:659][158]LogPlayLevel: PIE: World Init took: (0.000731s)
-[2017.11.16-13.31.43:659][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.008331s)
-[2017.11.16-13.31.43:659][158]LogLoad: Game class is 'FirstPersonGamemode_C'
-[2017.11.16-13.31.43:662][158]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.31.43
-[2017.11.16-13.31.43:662][158]LogWorld: Bringing up level for play took: 0.002261
-[2017.11.16-13.31.43:662][158]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.31.43:663][158]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.31.43:663][158]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.31.43:663][158]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.31.43:663][158]LogLoad: Took 0.030949 seconds to LoadMap(/Game/Maps/UEDPIE_0_BaseMap)
-[2017.11.16-13.33.33:303][310]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.33.33:303][310]LogGameState: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.33.33:304][310]LogNet: Browse: /Game/Maps/BaseMap
-[2017.11.16-13.33.33:304][310]LogLoad: LoadMap: /Game/Maps/BaseMap
-[2017.11.16-13.33.33:322][310]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
-[2017.11.16-13.33.33:330][310]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007249s)
-[2017.11.16-13.33.33:330][310]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.33.33:330][310]LogPlayLevel: PIE: World Init took: (0.000606s)
-[2017.11.16-13.33.33:331][310]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.008152s)
-[2017.11.16-13.33.33:331][310]LogLoad: Game class is 'FirstPersonGamemode_C'
-[2017.11.16-13.33.33:333][310]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.33.33
-[2017.11.16-13.33.33:334][310]LogWorld: Bringing up level for play took: 0.002507
-[2017.11.16-13.33.33:334][310]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.33.33:334][310]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.33.33:334][310]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.33.33:335][310]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.33.33:335][310]LogLoad: Took 0.031537 seconds to LoadMap(/Game/Maps/UEDPIE_0_BaseMap)
-[2017.11.16-13.33.43:299][504]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.33.43:299][504]LogGameState: Match State Changed from InProgress to LeavingMap
-[2017.11.16-13.33.43:299][504]LogNet: Browse: /Game/Maps/BaseMap
-[2017.11.16-13.33.43:299][504]LogLoad: LoadMap: /Game/Maps/BaseMap
-[2017.11.16-13.33.43:317][504]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
-[2017.11.16-13.33.43:324][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007276s)
-[2017.11.16-13.33.43:324][504]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.33.43:325][504]LogPlayLevel: PIE: World Init took: (0.000639s)
-[2017.11.16-13.33.43:325][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.008253s)
-[2017.11.16-13.33.43:325][504]LogLoad: Game class is 'FirstPersonGamemode_C'
-[2017.11.16-13.33.43:327][504]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.33.43
-[2017.11.16-13.33.43:327][504]LogWorld: Bringing up level for play took: 0.002029
-[2017.11.16-13.33.43:328][504]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.33.43:328][504]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.33.43:328][504]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.33.43:329][504]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.33.43:329][504]LogLoad: Took 0.029805 seconds to LoadMap(/Game/Maps/UEDPIE_0_BaseMap)
-[2017.11.16-13.33.45:041][708]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.33.45:104][708]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.44.45:570][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesh_desk_draft)
-[2017.11.16-13.45.16:062][865]LogSlate: Took 0.000540 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.11.16-13.45.19:959][ 75]LogEditorFactories: Performing atomic reimport of [Z:/Projects/NoirMysteryHouse/NMH_Maya/assets/mesh_desk_draft.fbx]
-[2017.11.16-13.45.19:966][ 75]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.16-13.45.20:016][ 75]LogFbx: Loading FBX Scene from Z:/Projects/NoirMysteryHouse/NMH_Maya/assets/mesh_desk_draft.fbx
-[2017.11.16-13.45.20:029][ 75]LogFbx: FBX Scene Loaded Succesfully
-[2017.11.16-13.45.20:034][ 75]LogFbx: Warning: Triangulating static mesh pCube27
-[2017.11.16-13.45.20:062][ 75]LogStaticMesh: Building static mesh mesh_desk_draft...
-[2017.11.16-13.45.20:079][ 75]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/mesh_desk_draft.mesh_desk_draft
-[2017.11.16-13.45.20:100][ 75]LogEditorFactories: -- imported successfully
-[2017.11.16-13.45.30:012][773]LogEditorViewport: Clicking on Actor (LMB): BP_InteractObject_C (InteractObject_BP4)
-[2017.11.16-13.45.32:330][  6]LogEditorViewport: Clicking on Actor (LMB): BP_InteractObject_C (InteractObject_BP5)
-[2017.11.16-13.45.34:787][262]Cmd: DELETE
-[2017.11.16-13.45.34:787][262]Cmd: ACTOR DELETE
-[2017.11.16-13.45.34:790][262]LogEditorActor: Deleted Actor: BP_InteractObject_C
-[2017.11.16-13.45.34:808][262]LogEditorActor: Deleted 1 Actors (0.021 secs)
-[2017.11.16-13.45.36:013][405]LogEditorViewport: Clicking on Actor (LMB): BP_InteractObject_C (InteractObject_BP4)
-[2017.11.16-13.45.41:644][814]LogEditorViewport: Clicking on Actor (LMB): BP_InteractObject_C (InteractObject_BP2)
-[2017.11.16-13.45.43:072][977]Cmd: DELETE
-[2017.11.16-13.45.43:072][977]Cmd: ACTOR DELETE
-[2017.11.16-13.45.43:075][977]LogEditorActor: Deleted Actor: BP_InteractObject_C
-[2017.11.16-13.45.43:088][977]LogEditorActor: Deleted 1 Actors (0.016 secs)
-[2017.11.16-13.45.44:110][ 95]LogEditorViewport: Clicking on Actor (LMB): BP_InteractObject_C (InteractObject_BP3)
-[2017.11.16-13.45.44:230][104]Cmd: DELETE
-[2017.11.16-13.45.44:230][104]Cmd: ACTOR DELETE
-[2017.11.16-13.45.44:232][104]LogEditorActor: Deleted Actor: BP_InteractObject_C
-[2017.11.16-13.45.44:252][104]LogEditorActor: Deleted 1 Actors (0.022 secs)
-[2017.11.16-13.45.50:302][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesh_desk_draft)
-[2017.11.16-13.45.52:785][658]LogEditorViewport: Clicking on Actor (LMB): BP_InteractObject_C (InteractObject_BP4)
-[2017.11.16-13.45.59:168][196]Cmd: TRANSACTION UNDO
-[2017.11.16-13.45.59:168][196]LogEditorTransaction: Undo Move Actors
-[2017.11.16-13.46.11:799][156]LogEditorViewport: Clicking on Actor (LMB): BP_InteractObject_C (InteractObject_BP)
-[2017.11.16-13.46.24:754][ 61]LogEditorViewport: Clicking on Actor (LMB): BP_InteractObject_C (InteractObject_BP4)
-[2017.11.16-13.47.02:261][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/mesh_desk_draft" FILE="Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Meshes/mesh_desk_draft.uasset" SILENT=true
-[2017.11.16-13.47.02:283][909]LogSavePackage: Save=12.15ms
-[2017.11.16-13.47.02:283][909]LogSavePackage: Moving 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/mesh_desk_draftB0A508794FE08DE359CEC498D954D0B3.tmp' to 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Meshes/mesh_desk_draft.uasset'
-[2017.11.16-13.47.02:286][909]LogSavePackage: Display: Finished SavePackage Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Meshes/mesh_desk_draft.uasset
-[2017.11.16-13.47.07:136][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BaseMap" FILE="Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.11.16-13.47.07:415][420]LogSavePackage: Save=244.72ms
-[2017.11.16-13.47.07:416][420]LogSavePackage: Moving 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/BaseMap2F8BF2204F8751660A7FD6BDDBE1C716.tmp' to 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap'
-[2017.11.16-13.47.07:421][420]LogSavePackage: Display: Finished SavePackage Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap
-[2017.11.16-13.47.07:466][420]LogFileHelpers: Saving map 'BaseMap' took 0.399
-[2017.11.16-13.47.08:652][528]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.16-13.47.08:667][528]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.47.08:668][528]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.16-13.47.08:668][528]PIE: New page: PIE session: BaseMap (17 Nov 2017 11:47:08 am)
-[2017.11.16-13.47.08:668][528]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
-[2017.11.16-13.47.08:675][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007341s)
-[2017.11.16-13.47.08:676][528]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.47.08:676][528]LogPlayLevel: PIE: World Init took: (0.000604s)
-[2017.11.16-13.47.08:676][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.008202s)
-[2017.11.16-13.47.08:697][528]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.16-13.47.08:710][528]LogInit: FAudioDevice initialized.
-[2017.11.16-13.47.08:747][528]LogLoad: Game class is 'FirstPersonGamemode_C'
-[2017.11.16-13.47.08:751][528]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.47.08
-[2017.11.16-13.47.08:752][528]LogWorld: Bringing up level for play took: 0.003767
-[2017.11.16-13.47.08:753][528]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.47.08:753][528]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.47.08:753][528]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.47.08:754][528]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.47.08:754][528]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BaseMap 0.847
-[2017.11.16-13.47.08:755][528]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.47.13:041][ 32]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.47.13:078][ 32]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.47.14:227][154]LogEditorViewport: Clicking on Actor (LMB): BP_InteractObject_C (InteractObject_BP5)
-[2017.11.16-13.47.19:802][496]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesh_desk_draft)
-[2017.11.16-13.47.24:186][963]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.16-13.47.24:199][963]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.47.24:199][963]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.16-13.47.24:200][963]PIE: New page: PIE session: BaseMap (17 Nov 2017 11:47:24 am)
-[2017.11.16-13.47.24:200][963]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
-[2017.11.16-13.47.24:207][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007121s)
-[2017.11.16-13.47.24:207][963]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.47.24:208][963]LogPlayLevel: PIE: World Init took: (0.000590s)
-[2017.11.16-13.47.24:208][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.007945s)
-[2017.11.16-13.47.24:228][963]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.16-13.47.24:240][963]LogInit: FAudioDevice initialized.
-[2017.11.16-13.47.24:272][963]LogLoad: Game class is 'FirstPersonGamemode_C'
-[2017.11.16-13.47.24:275][963]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.47.24
-[2017.11.16-13.47.24:275][963]LogWorld: Bringing up level for play took: 0.002134
-[2017.11.16-13.47.24:275][963]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.47.24:275][963]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.47.24:276][963]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.47.24:276][963]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.47.24:276][963]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BaseMap 0.369
-[2017.11.16-13.47.24:277][963]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.47.42:029][ 85]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.47.42:063][ 85]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.47.45:593][338]LogEditorViewport: Clicking on Actor (LMB): BP_InteractObject_C (InteractObject_BP4)
-[2017.11.16-13.49.38:096][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/mesh_desk_draft" FILE="Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Meshes/mesh_desk_draft.uasset" SILENT=true
-[2017.11.16-13.49.38:116][182]LogSavePackage: Save=11.18ms
-[2017.11.16-13.49.38:116][182]LogSavePackage: Moving 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/mesh_desk_draft6AC7A1364227CC1C7B4A92B92899D860.tmp' to 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Meshes/mesh_desk_draft.uasset'
-[2017.11.16-13.49.38:119][182]LogSavePackage: Display: Finished SavePackage Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Meshes/mesh_desk_draft.uasset
-[2017.11.16-13.49.41:513][474]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.16-13.49.41:528][474]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.49.41:529][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.16-13.49.41:529][474]PIE: New page: PIE session: BaseMap (17 Nov 2017 11:49:41 am)
-[2017.11.16-13.49.41:529][474]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
-[2017.11.16-13.49.41:537][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007847s)
-[2017.11.16-13.49.41:537][474]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.49.41:537][474]LogPlayLevel: PIE: World Init took: (0.000615s)
-[2017.11.16-13.49.41:538][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.008740s)
-[2017.11.16-13.49.41:559][474]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.16-13.49.41:571][474]LogInit: FAudioDevice initialized.
-[2017.11.16-13.49.41:606][474]LogLoad: Game class is 'FirstPersonGamemode_C'
-[2017.11.16-13.49.41:608][474]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.49.41
-[2017.11.16-13.49.41:609][474]LogWorld: Bringing up level for play took: 0.002071
-[2017.11.16-13.49.41:609][474]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.49.41:609][474]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.49.41:609][474]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BaseMap -0.298
-[2017.11.16-13.49.41:610][474]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.49.45:108][885]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.49.45:140][885]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.49.46:086][989]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.16-13.49.46:101][989]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.49.46:101][989]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.16-13.49.46:102][989]PIE: New page: PIE session: BaseMap (17 Nov 2017 11:49:46 am)
-[2017.11.16-13.49.46:102][989]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
-[2017.11.16-13.49.46:109][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007168s)
-[2017.11.16-13.49.46:109][989]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.49.46:109][989]LogPlayLevel: PIE: World Init took: (0.000614s)
-[2017.11.16-13.49.46:110][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.008030s)
-[2017.11.16-13.49.46:128][989]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.16-13.49.46:140][989]LogInit: FAudioDevice initialized.
-[2017.11.16-13.49.46:171][989]LogLoad: Game class is 'FirstPersonGamemode_C'
-[2017.11.16-13.49.46:173][989]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.49.46
-[2017.11.16-13.49.46:173][989]LogWorld: Bringing up level for play took: 0.002133
-[2017.11.16-13.49.46:174][989]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.49.46:174][989]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.49.46:174][989]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.49.46:175][989]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.49.46:175][989]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BaseMap 0.267
-[2017.11.16-13.49.46:175][989]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.50.58:343][636]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.50.58:377][636]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.52.19:818][568]MapCheck: New page: Map Check
-[2017.11.16-13.52.19:841][568]Cmd: MAP REBUILD ALLVISIBLE
-[2017.11.16-13.52.19:841][568]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.11.16-13.52.19:934][568]LightingResults: New page: Lighting Build - 17 Nov 2017 11:52:19 am
-[2017.11.16-13.52.19:996][568]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.11.16-13.52.20:192][568]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.11.16-13.52.20:222][568]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.11.16-13.52.21:269][568]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.11.16-13.52.21:269][568]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10808
-[2017.11.16-13.52.24:034][568]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.11.16-13.52.24:034][568]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.11.16-13.52.24:034][568]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.11.16-13.52.24:034][568]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.11.16-13.52.24:034][568]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.11.16-13.52.24:329][568]LogEditorBuildUtils: Build time 0:04
-[2017.11.16-13.52.27:313][766]Job is a success!
-[2017.11.16-13.52.27:391][768]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.008s
-[2017.11.16-13.52.27:391][768]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2017.11.16-13.52.27:391][768]LogVolumetricLightmapImport:      BrickData 30x5x5 = 0.0Mb
-[2017.11.16-13.52.27:391][768]LogVolumetricLightmapImport:      Bricks at Level
-[2017.11.16-13.52.27:391][768]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
-[2017.11.16-13.52.27:391][768]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
-[2017.11.16-13.52.27:391][768]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
-[2017.11.16-13.52.27:493][768]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
-[2017.11.16-13.52.27:494][768]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
-[2017.11.16-13.52.27:494][768]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
-[2017.11.16-13.52.27:494][768]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
-[2017.11.16-13.52.27:494][768]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
-[2017.11.16-13.52.27:494][768]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
-[2017.11.16-13.52.27:494][768]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
-[2017.11.16-13.52.27:494][768]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 64X256)
-[2017.11.16-13.52.27:494][768]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X64)
-[2017.11.16-13.52.27:524][768]Lightmass on DESKTOP-UJKLS57: 2.26 sec total, 113 ms importing, 3 ms setup, 687 ms photons, 1.39 sec processing, 0 ms extra exporting [26/26 mappings]. Threads: 14.8 sec total, 2.79 sec processing.
-[2017.11.16-13.52.27:565][768]LogStaticLightingSystem: Illumination: 7.61 sec (57 ms encoding lightmaps, 20 ms encoding shadowmaps)
-[2017.11.16-13.52.27:565][768]LogStaticLightingSystem: Lightmap texture memory:  1.0 MB (0.5 MB streaming, 0.5 MB non-streaming), 6 textures
-[2017.11.16-13.52.27:565][768]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 3 textures
-[2017.11.16-13.52.28:050][768]DumpUnbuiltLightIteractions
-[2017.11.16-13.52.28:050][768]Lights with unbuilt interactions: 0
-[2017.11.16-13.52.28:050][768]
-[2017.11.16-13.52.28:050][768]Primitives with unbuilt interactions: 0
-[2017.11.16-13.52.28:133][769]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.11.16-13.52.28:134][769]MapCheck: New page: BaseMap - 17 Nov 2017 11:52:28 am
-[2017.11.16-13.52.28:249][769]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 115.862ms to complete.
-[2017.11.16-13.52.31:735][179]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.16-13.52.31:750][179]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.52.31:750][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.16-13.52.31:750][179]PIE: New page: PIE session: BaseMap (17 Nov 2017 11:52:31 am)
-[2017.11.16-13.52.31:750][179]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
-[2017.11.16-13.52.31:757][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006355s)
-[2017.11.16-13.52.31:757][179]LogAIModule: Creating AISystem for world BaseMap
-[2017.11.16-13.52.31:758][179]LogPlayLevel: PIE: World Init took: (0.000671s)
-[2017.11.16-13.52.31:758][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.007382s)
-[2017.11.16-13.52.31:778][179]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.16-13.52.31:790][179]LogInit: FAudioDevice initialized.
-[2017.11.16-13.52.31:830][179]LogLoad: Game class is 'FirstPersonGamemode_C'
-[2017.11.16-13.52.31:833][179]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.17-00.52.31
-[2017.11.16-13.52.31:833][179]LogWorld: Bringing up level for play took: 0.002162
-[2017.11.16-13.52.31:834][179]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.52.31:834][179]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2017.11.16-13.52.31:834][179]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.52.31:835][179]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2017.11.16-13.52.31:835][179]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BaseMap -0.073
-[2017.11.16-13.52.31:835][179]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.54.35:802][ 14]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.54.35:836][ 14]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.11.16-13.54.41:459][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BaseMap" FILE="Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.11.16-13.54.41:802][488]LogSavePackage: Save=311.41ms
-[2017.11.16-13.54.41:802][488]LogSavePackage: Moving 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/BaseMap08EF0B89400C520258C3C9AE936A6200.tmp' to 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap'
-[2017.11.16-13.54.41:807][488]LogSavePackage: Display: Finished SavePackage Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap
-[2017.11.16-13.54.41:865][488]LogFileHelpers: Saving map 'BaseMap' took 0.472
-[2017.11.16-13.54.41:881][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BaseMap_BuiltData" FILE="Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap_BuiltData.uasset" SILENT=true
-[2017.11.16-13.54.41:971][488]LogSavePackage: Save=73.56ms
-[2017.11.16-13.54.41:971][488]LogSavePackage: Moving 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/BaseMap_BuiltData2AEB9A26417CD4D1624F5E9FB5876FFB.tmp' to 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap_BuiltData.uasset'
-[2017.11.16-13.54.41:977][488]LogSavePackage: Display: Finished SavePackage Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap_BuiltData.uasset
+[2017.11.18-08.40.52:741][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.18-08.40.52:741][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.18-08.40.52:773][  0]LogInit: Computer: DESKTOP-UJKLS57
+[2017.11.18-08.40.52:773][  0]LogInit: User: i76800K
+[2017.11.18-08.40.52:773][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.11.18-08.40.52:773][  0]LogInit: High frequency timer resolution =3.320310 MHz
+[2017.11.18-08.40.52:774][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2017.11.18-08.40.52:774][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.18-08.40.52:774][  0]LogMemory: Process Physical Memory: 274.07 MB used, 274.07 MB peak
+[2017.11.18-08.40.52:774][  0]LogMemory: Process Virtual Memory: 271.55 MB used, 271.55 MB peak
+[2017.11.18-08.40.52:774][  0]LogMemory: Physical Memory: 9248.79 MB used,  6970.25 MB free, 16219.04 MB total
+[2017.11.18-08.40.52:774][  0]LogMemory: Virtual Memory: 674.98 MB used,  6970.25 MB free, 134217728.00 MB total
+[2017.11.18-08.40.52:946][  0]LogInit: Using OS detected language (en-GB).
+[2017.11.18-08.40.52:946][  0]LogInit: Using OS detected locale (en-AU).
+[2017.11.18-08.40.52:949][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.11.18-08.40.53:344][  0]LogInit: Setting process to per monitor DPI aware
+[2017.11.18-08.40.53:679][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.18-08.40.53:761][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.11.18-08.40.53:761][  0]LogD3D11RHI:       8096/0/8109 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.18-08.40.53:766][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.18-08.40.53:766][  0]LogD3D11RHI:       0/0/8109 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.18-08.40.53:766][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.18-08.40.53:779][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.18-08.40.53:779][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.18-08.40.53:779][  0]LogWindows: EnumDisplayDevices:
+[2017.11.18-08.40.53:780][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.11.18-08.40.53:780][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.11.18-08.40.53:781][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.18-08.40.53:781][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.18-08.40.53:781][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.11.18-08.40.53:781][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.11.18-08.40.53:781][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.11.18-08.40.53:781][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.11.18-08.40.53:781][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
+[2017.11.18-08.40.53:815][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.18-08.40.53:877][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.18-08.40.53:934][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Intermediate/Shaders/WorkingDirectory/23352/).
+[2017.11.18-08.40.53:935][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/i7 6800K/AppData/Local/Temp/UnrealShaderWorkingDir/111C4B574A3D1E924CF68F9F79566E1F/'.
+[2017.11.18-08.40.53:935][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.18-08.40.55:183][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.18-08.40.55:252][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.18-08.40.55:307][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.18-08.40.55:363][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.18-08.40.55:419][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.18-08.40.55:483][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.18-08.40.55:539][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.18-08.40.55:596][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.18-08.40.55:645][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.18-08.40.55:704][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.18-08.40.55:760][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.18-08.40.55:815][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.18-08.40.55:875][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.18-08.40.55:929][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.18-08.40.56:039][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.18-08.40.56:039][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.18-08.40.56:096][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.18-08.40.56:199][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.18-08.40.56:365][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.18-08.40.56:432][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.18-08.40.56:506][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.18-08.40.56:592][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.18-08.40.56:688][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.18-08.40.56:774][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.18-08.40.56:774][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.18-08.40.57:397][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.18-08.40.57:501][  0]LogDerivedDataCache: Loaded boot cache 0.10s 78MB C:/Users/i7 6800K/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.11.18-08.40.57:501][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/i7 6800K/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.11.18-08.40.57:501][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.18-08.40.57:502][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.18-08.40.57:502][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.18-08.40.57:502][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.18-08.40.57:525][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.18-08.40.57:537][  0]LogDerivedDataCache: Using Local data cache path C:/Users/i7 6800K/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.18-08.40.57:555][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.18-08.40.57:555][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.18-08.40.57:556][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.18-08.40.57:556][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.18-08.40.58:108][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.18-08.40.58:516][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.18-08.40.58:561][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.18-08.40.58:561][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.18-08.40.58:561][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.18-08.40.58:561][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.18-08.40.58:561][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.18-08.40.58:630][  0]LogNetVersion: TestProject01 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2719823813)
+[2017.11.18-08.40.58:855][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2017.11.18-08.40.59:689][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.171623 seconds
+[2017.11.18-08.40.59:699][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.11.18-08.40.59:699][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
+[2017.11.18-08.40.59:699][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.18-08.40.59:767][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.18-08.41.04:044][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.18-08.41.04:090][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.18-08.41.05:051][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.18-08.41.05:647][  0]SourceControl: Source control is disabled
+[2017.11.18-08.41.07:712][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.18-08.41.08:075][  0]LogOcInput: OculusInput pre-init called
+[2017.11.18-08.41.08:470][  0]LogEngine: Initializing Engine...
+[2017.11.18-08.41.08:473][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.18-08.41.08:742][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.18-08.41.08:743][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.18-08.41.08:898][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.18-08.41.08:911][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.18-08.41.08:935][  0]LogInit: FAudioDevice initialized.
+[2017.11.18-08.41.09:021][  0]LogDerivedDataCache: Saved boot cache 0.09s 78MB C:/Users/i7 6800K/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.11.18-08.41.09:035][  0]LogInit: Texture streaming: Enabled
+[2017.11.18-08.41.09:173][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.18-08.41.09:486][  0]LogInit: Transaction tracking system initialized
+[2017.11.18-08.41.09:972][  0]BlueprintLog: New page: Editor Load
+[2017.11.18-08.41.11:373][  0]LocalizationService: Localization service is disabled
+[2017.11.18-08.41.12:463][  0]LogConsoleResponse: Display: 
+[2017.11.18-08.41.12:678][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.18-08.41.12:678][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.18-08.41.12:678][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.18-08.41.13:334][  0]LogFileCache: Scanning file cache for directory 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/' took 0.01s
+[2017.11.18-08.41.14:696][  0]Cmd: MAP LOAD FILE="Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.18-08.41.14:696][  0]LightingResults: New page: Lighting Build
+[2017.11.18-08.41.14:759][  0]MapCheck: New page: Map Check
+[2017.11.18-08.41.14:759][  0]LightingResults: New page: Lighting Build
+[2017.11.18-08.41.15:959][  0]LogAIModule: Creating AISystem for world BaseMap
+[2017.11.18-08.41.15:990][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.18-08.41.16:020][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.18-08.41.16:095][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 75.213ms to complete.
+[2017.11.18-08.41.16:095][  0]LogFileHelpers: Loading map 'BaseMap' took 1.399
+[2017.11.18-08.41.16:212][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.18-08.41.16:213][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.18-08.41.16:449][  0]LogCollectionManager: Loaded 0 collections in 0.002072 seconds
+[2017.11.18-08.41.16:603][  0]LogFileCache: Scanning file cache for directory 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/Collections/' took 0.01s
+[2017.11.18-08.41.16:603][  0]LogFileCache: Scanning file cache for directory 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Developers/i76800K/Collections/' took 0.01s
+[2017.11.18-08.41.16:603][  0]LogFileCache: Scanning file cache for directory 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Collections/' took 0.01s
+[2017.11.18-08.41.16:603][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.18-08.41.16:616][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2363 classes and 519 folders.
+[2017.11.18-08.41.16:700][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.11.18-08.41.16:866][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.11.18-08.41.16:938][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.18-08.41.17:217][  0]LogSlate: Took 0.000377 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.18-08.41.17:220][  0]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.18-08.41.17:234][  0]LogSlate: Took 0.001565 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.18-08.41.17:382][  0]LogRenderer: Reallocating scene render targets to support 1196x576 Format 10 NumSamples 1 (Frame:1).
+[2017.11.18-08.41.17:766][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.18-08.41.17:766][  0]LogLoad: (Engine Initialization) Total time: 28.48 seconds
+[2017.11.18-08.41.17:766][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.18-08.41.17:766][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.18-08.41.17:801][  0]SourceControl: On branch HouseDoorsFix
+[2017.11.18-08.41.17:801][  0]SourceControl: Changes not staged for commit:
+[2017.11.18-08.41.17:801][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.18-08.41.17:802][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.18-08.41.17:802][  0]SourceControl: 	modified:   UE4/TestProject01/Intermediate/CachedAssetRegistry.bin
+[2017.11.18-08.41.17:802][  0]SourceControl: 	deleted:    UE4/TestProject01/Saved/Config/CrashReportClient/UE4CC-Windows-2846BEBE461095380E7652BBB501ED24/CrashReportClient.ini
+[2017.11.18-08.41.17:802][  0]SourceControl: 	deleted:    UE4/TestProject01/Saved/Config/CrashReportClient/UE4CC-Windows-3C6F1CF041321D81F3F8A39DB39AAF76/CrashReportClient.ini
+[2017.11.18-08.41.17:802][  0]SourceControl: 	deleted:    UE4/TestProject01/Saved/Config/CrashReportClient/UE4CC-Windows-63B467884A0E697F8C0066AE3790717D/CrashReportClient.ini
+[2017.11.18-08.41.17:802][  0]SourceControl: 	deleted:    UE4/TestProject01/Saved/Config/CrashReportClient/UE4CC-Windows-86D98C0148DD8A0F75A34C9BA3BB238C/CrashReportClient.ini
+[2017.11.18-08.41.17:802][  0]SourceControl: 	deleted:    UE4/TestProject01/Saved/Config/CrashReportClient/UE4CC-Windows-86E6A1364D3F1644436862B5CC623BAD/CrashReportClient.ini
+[2017.11.18-08.41.17:802][  0]SourceControl: 	deleted:    UE4/TestProject01/Saved/Config/CrashReportClient/UE4CC-Windows-955F1E184516F5E6FCD75482080C7FE5/CrashReportClient.ini
+[2017.11.18-08.41.17:802][  0]SourceControl: 	deleted:    UE4/TestProject01/Saved/Config/CrashReportClient/UE4CC-Windows-A60F23944B05E0DA03679D914EF572B0/CrashReportClient.ini
+[2017.11.18-08.41.17:802][  0]SourceControl: 	deleted:    UE4/TestProject01/Saved/Config/CrashReportClient/UE4CC-Windows-ADF1AA5E4790BB7EB8634189EF5031B5/CrashReportClient.ini
+[2017.11.18-08.41.17:802][  0]SourceControl: 	deleted:    UE4/TestProject01/Saved/Config/CrashReportClient/UE4CC-Windows-B01D64D044BC64D4F234FB8B5912F818/CrashReportClient.ini
+[2017.11.18-08.41.17:802][  0]SourceControl: 	deleted:    UE4/TestProject01/Saved/Config/CrashReportClient/UE4CC-Windows-BB545C3C4B6BF8BE4D9B75A1DA03A384/CrashReportClient.ini
+[2017.11.18-08.41.17:802][  0]SourceControl: 	deleted:    UE4/TestProject01/Saved/Config/CrashReportClient/UE4CC-Windows-BC0F1A7249DC3C7AEC13C7A628E8256D/CrashReportClient.ini
+[2017.11.18-08.41.17:802][  0]SourceControl: 	deleted:    UE4/TestProject01/Saved/Config/CrashReportClient/UE4CC-Windows-CECA4C2D45232871B96BC18C511844A3/CrashReportClient.ini
+[2017.11.18-08.41.17:802][  0]SourceControl: 	deleted:    UE4/TestProject01/Saved/Config/CrashReportClient/UE4CC-Windows-D6D5E0D94E5978CFBEDCDBB5A3BB07B8/CrashReportClient.ini
+[2017.11.18-08.41.17:802][  0]SourceControl: 	deleted:    UE4/TestProject01/Saved/Config/CrashReportClient/UE4CC-Windows-F7BD60334445356D19A7C09F48F69F6E/CrashReportClient.ini
+[2017.11.18-08.41.17:802][  0]SourceControl: 	modified:   UE4/TestProject01/Saved/Config/Windows/Editor.ini
+[2017.11.18-08.41.17:802][  0]SourceControl: 	modified:   UE4/TestProject01/Saved/Config/Windows/Engine.ini
+[2017.11.18-08.41.17:802][  0]SourceControl: 	deleted:    UE4/TestProject01/Saved/Logs/TestProject01-backup-2017.11.10-00.30.11.log
+[2017.11.18-08.41.17:802][  0]SourceControl: 	deleted:    UE4/TestProject01/Saved/Logs/TestProject01-backup-2017.11.14-19.32.32.log
+[2017.11.18-08.41.17:802][  0]SourceControl: 	modified:   UE4/TestProject01/Saved/Logs/TestProject01.log
+[2017.11.18-08.41.17:802][  0]SourceControl: Untracked files:
+[2017.11.18-08.41.17:802][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.18-08.41.17:802][  0]SourceControl: 	UE4/TestProject01/Saved/Config/CrashReportClient/UE4CC-Windows-0C04790049E08E7163CE8DA6AA8387D2/
+[2017.11.18-08.41.17:802][  0]SourceControl: 	UE4/TestProject01/Saved/Logs/TestProject01-backup-2017.11.18-19.40.50.log
+[2017.11.18-08.41.17:802][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.18-08.41.17:803][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.18-08.41.17:848][  0]LogSlate: Took 0.001669 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.18-08.41.17:916][  1]LogAssetRegistry: Asset discovery search completed in 19.0831 seconds
+[2017.11.18-08.41.17:923][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.18-08.41.17:923][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000074 seconds (updated 0 objects)
+[2017.11.18-08.41.39:854][329]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.18-08.41.40:689][330]LogRenderer: Reallocating scene render targets to support 1432x924 Format 10 NumSamples 1 (Frame:1).
+[2017.11.18-08.42.11:801][519]LogActorFactory: Actor Factory created mesh_book_draft
+[2017.11.18-08.42.12:899][586]LogActorFactory: Actor Factory created mesh_book_draft
+[2017.11.18-08.42.26:741][656]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2017.11.18-08.42.26:749][656]LogMaterial: Missing cached shader map for material Mat_Book, compiling. 
+[2017.11.18-08.42.26:954][656]LogMaterial: Missing cached shader map for material Mat_Book, compiling. 
+[2017.11.18-08.42.26:976][656]LogMaterial: Missing cached shader map for material Mat_Book, compiling. 
+[2017.11.18-08.42.27:025][656]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.18-08.42.27:045][656]LogSlate: Took 0.001797 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.18-08.42.28:573][733]MaterialEditorStats: Base pass shader: 102 instructions
+[2017.11.18-08.42.28:573][733]MaterialEditorStats: Base pass shader with Surface Lightmap: 119 instructions
+[2017.11.18-08.42.28:573][733]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2017.11.18-08.42.28:573][733]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.18-08.42.28:573][733]MaterialEditorStats: Texture samplers: 4/16
+[2017.11.18-08.42.28:573][733]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.18-08.42.42:678][801]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 Z:/Projects/NoirMysteryHouse/NMH_Maya/images/texture_book_01.png)
+[2017.11.18-08.42.42:690][801]LogTexture: Display: Building textures: texture_book_01 (AutoDXT, 512X512)
+[2017.11.18-08.43.11:076][402]LogMaterial: Missing cached shader map for material Mat_Book, compiling. 
+[2017.11.18-08.43.11:092][402]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.18-08.43.11:124][402]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.18-08.43.11:128][402]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.18-08.43.12:336][472]MaterialEditorStats: Base pass shader: 102 instructions
+[2017.11.18-08.43.12:336][472]MaterialEditorStats: Base pass shader with Surface Lightmap: 119 instructions
+[2017.11.18-08.43.12:336][472]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2017.11.18-08.43.12:336][472]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.18-08.43.12:336][472]MaterialEditorStats: Texture samplers: 4/16
+[2017.11.18-08.43.12:336][472]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.18-08.43.20:663][346]LogMaterial: Missing cached shader map for material Mat_Book, compiling. 
+[2017.11.18-08.43.20:684][346]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.18-08.43.21:544][425]MaterialEditorStats: Base pass shader: 102 instructions
+[2017.11.18-08.43.21:544][425]MaterialEditorStats: Base pass shader with Surface Lightmap: 119 instructions
+[2017.11.18-08.43.21:544][425]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2017.11.18-08.43.21:544][425]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.18-08.43.21:544][425]MaterialEditorStats: Texture samplers: 4/16
+[2017.11.18-08.43.21:544][425]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.18-08.43.25:523][856]LogMaterialEditor: Saving and Compiling material Mat_Book
+[2017.11.18-08.43.26:064][856]LogMaterial: Missing cached shader map for material Mat_Book, compiling. 
+[2017.11.18-08.43.26:149][856]LogMaterial: Missing cached shader map for material Mat_Book, compiling. 
+[2017.11.18-08.43.26:229][856]LogMaterial: Missing cached shader map for material Mat_Book, compiling. 
+[2017.11.18-08.43.26:305][856]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_Book, compiling. 
+[2017.11.18-08.43.26:921][856]TextureStreamingBuild: Display: Compiling optional shaders took 0.627 seconds.
+[2017.11.18-08.43.28:884][856]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.18-08.43.28:907][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mat_Book" FILE="Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Materials/Mat_Book.uasset" SILENT=true
+[2017.11.18-08.43.29:229][856]LogSavePackage: Save=69.48ms
+[2017.11.18-08.43.29:230][856]LogSavePackage: Moving 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/Mat_Book8C71EFE648AD4ED617D23C9166405D90.tmp' to 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Materials/Mat_Book.uasset'
+[2017.11.18-08.43.29:252][856]LogSavePackage: Display: Finished SavePackage Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Materials/Mat_Book.uasset
+[2017.11.18-08.44.25:315][345]LogEditorFactories: Performing atomic reimport of [Z:/Projects/NoirMysteryHouse/NMH_Maya/images/texture_book_01.png]
+[2017.11.18-08.44.25:316][345]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 Z:/Projects/NoirMysteryHouse/NMH_Maya/images/texture_book_01.png)
+[2017.11.18-08.44.25:326][345]LogTexture: Display: Building textures: texture_book_01 (AutoDXT, 512X512)
+[2017.11.18-08.44.25:358][345]LogEditorFactories: -- imported successfully
+[2017.11.18-08.44.25:410][345]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.18-08.47.36:789][915]LogEditorFactories: Performing atomic reimport of [Z:/Projects/NoirMysteryHouse/NMH_Maya/images/texture_book_01.png]
+[2017.11.18-08.47.36:790][915]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 Z:/Projects/NoirMysteryHouse/NMH_Maya/images/texture_book_01.png)
+[2017.11.18-08.47.36:799][915]LogTexture: Display: Building textures: texture_book_01 (AutoDXT, 512X512)
+[2017.11.18-08.47.36:852][915]LogEditorFactories: -- imported successfully
+[2017.11.18-08.51.18:608][557]LogSavePackage: Save=783.43ms
+[2017.11.18-08.51.18:608][557]LogSavePackage: Moving 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/BaseMap_Auto1DBB4C1DB427EE0E722C12FB5E6FABFC5.tmp' to 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Maps/BaseMap_Auto1.umap'
+[2017.11.18-08.51.18:611][557]LogSavePackage: Display: Finished SavePackage Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Maps/BaseMap_Auto1.umap
+[2017.11.18-08.51.18:619][557]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BaseMap' took 0.833
+[2017.11.18-08.51.18:619][557]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.833
+[2017.11.18-08.51.18:633][557]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/texture_book_01] ([1] browsable assets)...
+[2017.11.18-08.51.18:648][557]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/texture_book_01.texture_book_01]
+[2017.11.18-08.51.18:648][557]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/texture_book_01]
+[2017.11.18-08.51.18:656][557]LogSavePackage: Save=6.18ms
+[2017.11.18-08.51.18:656][557]LogSavePackage: Moving 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/texture_book_01_Auto1F1CDB8B047F02DA3D4A4308186DD2BFC.tmp' to 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Textures/texture_book_01_Auto1.uasset'
+[2017.11.18-08.51.18:659][557]LogSavePackage: Display: Finished SavePackage Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Textures/texture_book_01_Auto1.uasset
+[2017.11.18-08.51.18:659][557]LogFileHelpers: Auto-saving content packages took 0.028
+[2017.11.18-08.51.52:326][683]Cmd: TRANSACTION UNDO
+[2017.11.18-08.51.52:326][683]LogEditorTransaction: Undo Create Pin Link
+[2017.11.18-08.51.52:330][683]LogMaterial: Missing cached shader map for material Mat_Book, compiling. 
+[2017.11.18-08.51.52:544][683]LogMaterial: Missing cached shader map for material Mat_Book, compiling. 
+[2017.11.18-08.51.52:568][683]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.18-08.51.53:874][766]MaterialEditorStats: Base pass shader: 102 instructions
+[2017.11.18-08.51.53:874][766]MaterialEditorStats: Base pass shader with Surface Lightmap: 119 instructions
+[2017.11.18-08.51.53:874][766]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2017.11.18-08.51.53:874][766]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.18-08.51.53:874][766]MaterialEditorStats: Texture samplers: 4/16
+[2017.11.18-08.51.53:874][766]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.18-08.52.03:671][877]LogMaterialEditor: Saving and Compiling material Mat_Book
+[2017.11.18-08.52.04:272][877]LogMaterial: Missing cached shader map for material Mat_Book, compiling. 
+[2017.11.18-08.52.04:367][877]LogMaterial: Missing cached shader map for material Mat_Book, compiling. 
+[2017.11.18-08.52.04:437][877]LogMaterial: Missing cached shader map for material Mat_Book, compiling. 
+[2017.11.18-08.52.04:509][877]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_Book, compiling. 
+[2017.11.18-08.52.05:139][877]TextureStreamingBuild: Display: Compiling optional shaders took 0.640 seconds.
+[2017.11.18-08.52.07:106][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mat_Book" FILE="Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Materials/Mat_Book.uasset" SILENT=true
+[2017.11.18-08.52.07:129][877]LogSavePackage: Save=11.89ms
+[2017.11.18-08.52.07:129][877]LogSavePackage: Moving 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/Mat_Book01815E4B412531BA0C4684A97026E453.tmp' to 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Materials/Mat_Book.uasset'
+[2017.11.18-08.52.07:132][877]LogSavePackage: Display: Finished SavePackage Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Materials/Mat_Book.uasset
+[2017.11.18-08.52.14:107][546]LogMaterial: Missing cached shader map for material Mat_Book, compiling. 
+[2017.11.18-08.52.14:979][625]MaterialEditorStats: Base pass shader: 102 instructions
+[2017.11.18-08.52.14:979][625]MaterialEditorStats: Base pass shader with Surface Lightmap: 119 instructions
+[2017.11.18-08.52.14:979][625]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2017.11.18-08.52.14:979][625]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.18-08.52.14:979][625]MaterialEditorStats: Texture samplers: 4/16
+[2017.11.18-08.52.14:979][625]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.18-08.52.32:716][272]LogMaterial: Missing cached shader map for material M_Book, compiling. 
+[2017.11.18-08.52.32:785][272]LogMaterial: Missing cached shader map for material M_Book, compiling. 
+[2017.11.18-08.52.32:801][272]LogMaterial: Missing cached shader map for material M_Book, compiling. 
+[2017.11.18-08.52.33:512][333]MaterialEditorStats: Base pass shader: 99 instructions
+[2017.11.18-08.52.33:512][333]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2017.11.18-08.52.33:512][333]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.18-08.52.33:512][333]MaterialEditorStats: Texture samplers: 2/16
+[2017.11.18-08.52.39:723][858]LogMaterial: Missing cached shader map for material M_Book, compiling. 
+[2017.11.18-08.52.39:739][858]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.18-08.52.39:773][858]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.18-08.52.40:458][892]MaterialEditorStats: Base pass shader: 99 instructions
+[2017.11.18-08.52.40:458][892]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2017.11.18-08.52.40:458][892]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.18-08.52.40:458][892]MaterialEditorStats: Texture samplers: 2/16
+[2017.11.18-08.52.49:761][699]LogMaterial: Missing cached shader map for material M_Book, compiling. 
+[2017.11.18-08.52.49:784][699]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.18-08.52.50:506][733]MaterialEditorStats: Base pass shader: 102 instructions
+[2017.11.18-08.52.50:506][733]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2017.11.18-08.52.50:506][733]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.18-08.52.50:506][733]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.18-08.52.50:506][733]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.18-08.52.59:561][491]LogMaterialEditor: Saving and Compiling material M_Book
+[2017.11.18-08.53.00:188][491]LogMaterial: Missing cached shader map for material M_Book, compiling. 
+[2017.11.18-08.53.00:258][491]LogMaterial: Missing cached shader map for material M_Book, compiling. 
+[2017.11.18-08.53.00:304][491]LogMaterial: Missing cached shader map for material M_Book, compiling. 
+[2017.11.18-08.53.00:365][491]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Book, compiling. 
+[2017.11.18-08.53.00:881][491]TextureStreamingBuild: Display: Compiling optional shaders took 0.524 seconds.
+[2017.11.18-08.53.02:921][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Book" FILE="Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Materials/M_Book.uasset" SILENT=true
+[2017.11.18-08.53.02:950][491]LogSavePackage: Save=27.83ms
+[2017.11.18-08.53.02:950][491]LogSavePackage: Moving 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/M_Book2EB95B6A4D5460A11562C4BFD197B14E.tmp' to 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Materials/M_Book.uasset'
+[2017.11.18-08.53.02:955][491]LogSavePackage: Display: Finished SavePackage Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Materials/M_Book.uasset
+[2017.11.18-08.53.03:240][491]MaterialEditorStats: Base pass shader: 102 instructions
+[2017.11.18-08.53.03:240][491]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2017.11.18-08.53.03:240][491]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.18-08.53.03:240][491]MaterialEditorStats: Texture samplers: 4/16
+[2017.11.18-08.53.03:240][491]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.18-08.53.07:546][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesh_book_draft9)
+[2017.11.18-08.53.37:471][621]LogSlate: Took 0.001512 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.18-08.54.44:798][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesh_book_draft7)
+[2017.11.18-08.54.47:034][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesh_book_draft9)
+[2017.11.18-08.55.24:149][672]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesh_book_draft7)
+[2017.11.18-08.55.26:220][857]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesh_book_draft3)
+[2017.11.18-08.55.42:741][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BaseMap" FILE="Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.18-08.55.43:010][247]LogSavePackage: Save=225.55ms
+[2017.11.18-08.55.43:010][247]LogSavePackage: Moving 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/BaseMap986584974230C160973C12A3FCED6367.tmp' to 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap'
+[2017.11.18-08.55.43:016][247]LogSavePackage: Display: Finished SavePackage Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap
+[2017.11.18-08.55.43:074][247]LogFileHelpers: Saving map 'BaseMap' took 0.401
+[2017.11.18-08.55.43:093][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/texture_book_01" FILE="Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Textures/texture_book_01.uasset" SILENT=true
+[2017.11.18-08.55.43:156][247]LogSavePackage: Save=59.57ms
+[2017.11.18-08.55.43:156][247]LogSavePackage: Moving 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/texture_book_01CCB76A184C1112C5C774A1BF0C3D3D58.tmp' to 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Textures/texture_book_01.uasset'
+[2017.11.18-08.55.43:160][247]LogSavePackage: Display: Finished SavePackage Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Textures/texture_book_01.uasset
+[2017.11.18-08.55.46:213][532]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.18-08.55.46:294][532]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.18-08.55.46:296][532]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.18-08.55.46:305][532]PIE: New page: PIE session: BaseMap (19 Nov 2017 6:55:46 am)
+[2017.11.18-08.55.46:306][532]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
+[2017.11.18-08.55.46:325][532]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019642s)
+[2017.11.18-08.55.46:326][532]LogAIModule: Creating AISystem for world BaseMap
+[2017.11.18-08.55.46:327][532]LogPlayLevel: PIE: World Init took: (0.001500s)
+[2017.11.18-08.55.46:328][532]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.021952s)
+[2017.11.18-08.55.46:366][532]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.18-08.55.46:381][532]LogInit: FAudioDevice initialized.
+[2017.11.18-08.55.46:437][532]LogLoad: Game class is 'FirstPersonGamemode_C'
+[2017.11.18-08.55.46:459][532]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.18-19.55.46
+[2017.11.18-08.55.46:462][532]LogWorld: Bringing up level for play took: 0.010518
+[2017.11.18-08.55.46:542][532]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.11.18-08.55.46:543][532]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.18-08.55.46:543][532]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.18-08.55.46:543][532]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.18-08.55.46:559][532]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.18-08.55.46:560][532]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BaseMap 0.798
+[2017.11.18-08.55.46:560][532]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.18-08.55.59:795][ 37]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.18-08.55.59:840][ 37]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.18-08.56.02:733][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesh_book_draft9)
+[2017.11.18-09.05.57:107][963]LogSavePackage: Save=281.03ms
+[2017.11.18-09.05.57:107][963]LogSavePackage: Moving 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/BaseMap_Auto2352F73FB40C96639C5145799E42743C9.tmp' to 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Maps/BaseMap_Auto2.umap'
+[2017.11.18-09.05.57:110][963]LogSavePackage: Display: Finished SavePackage Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/Autosaves/Game/Maps/BaseMap_Auto2.umap
+[2017.11.18-09.05.57:114][963]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BaseMap' took 1.053
+[2017.11.18-09.05.57:114][963]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.053
+[2017.11.18-11.46.38:243][458]LogHttp: Warning: 000002479EDDB700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.18-11.46.38:243][458]LogHttp: Warning: 000002479EDDB700: libcurl info message cache 0 (Connection 20 seems to be dead!)
+[2017.11.18-11.46.38:243][458]LogHttp: Warning: 000002479EDDB700: libcurl info message cache 1 (Closing connection 20)
+[2017.11.18-11.46.38:243][458]LogHttp: Warning: 000002479EDDB700: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.18-11.46.38:243][458]LogHttp: Warning: 000002479EDDB700: libcurl info message cache 3 (Closing connection 21)
+[2017.11.18-12.28.40:497][258]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.18-12.28.40:515][258]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.18-12.28.40:515][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.18-12.28.40:515][258]PIE: New page: PIE session: BaseMap (19 Nov 2017 10:28:40 am)
+[2017.11.18-12.28.40:516][258]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
+[2017.11.18-12.28.40:526][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010759s)
+[2017.11.18-12.28.40:527][258]LogAIModule: Creating AISystem for world BaseMap
+[2017.11.18-12.28.40:528][258]LogPlayLevel: PIE: World Init took: (0.001174s)
+[2017.11.18-12.28.40:528][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.012349s)
+[2017.11.18-12.28.40:551][258]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.18-12.28.40:564][258]LogInit: FAudioDevice initialized.
+[2017.11.18-12.28.40:596][258]LogLoad: Game class is 'FirstPersonGamemode_C'
+[2017.11.18-12.28.40:599][258]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.18-23.28.40
+[2017.11.18-12.28.40:599][258]LogWorld: Bringing up level for play took: 0.002405
+[2017.11.18-12.28.40:600][258]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.18-12.28.40:600][258]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.18-12.28.40:600][258]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.18-12.28.40:601][258]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.18-12.28.40:601][258]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BaseMap 0.853
+[2017.11.18-12.28.40:601][258]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.18-12.28.43:052][538]Cmd: LevelEditor.ToggleImmersive
+[2017.11.18-12.28.43:255][539]LogRenderer: Reallocating scene render targets to support 1508x924 Format 10 NumSamples 1 (Frame:282).
+[2017.11.18-12.28.43:327][540]LogRenderer: Reallocating scene render targets to support 1920x1040 Format 10 NumSamples 1 (Frame:284).
+[2017.11.18-12.30.06:545][519]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.11.18-12.30.06:545][519]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.11.18-12.30.06:545][519]LogNet: Browse: /Game/Maps/BaseMap
+[2017.11.18-12.30.06:546][519]LogLoad: LoadMap: /Game/Maps/BaseMap
+[2017.11.18-12.30.06:578][519]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
+[2017.11.18-12.30.06:586][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007433s)
+[2017.11.18-12.30.06:586][519]LogAIModule: Creating AISystem for world BaseMap
+[2017.11.18-12.30.06:586][519]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2017.11.18-12.30.06:587][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.008500s)
+[2017.11.18-12.30.06:587][519]LogLoad: Game class is 'FirstPersonGamemode_C'
+[2017.11.18-12.30.06:589][519]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.18-23.30.06
+[2017.11.18-12.30.06:589][519]LogWorld: Bringing up level for play took: 0.001856
+[2017.11.18-12.30.06:589][519]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.18-12.30.06:589][519]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.18-12.30.06:590][519]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.18-12.30.06:590][519]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.18-12.30.06:592][519]LogLoad: Took 0.044701 seconds to LoadMap(/Game/Maps/UEDPIE_0_BaseMap)
+[2017.11.18-12.30.09:500][866]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.18-12.30.09:571][866]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.18-12.30.16:701][565]LogAIModule: Creating AISystem for world House01
+[2017.11.18-12.30.19:823][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BaseMap" FILE="Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.18-12.30.20:150][565]LogSavePackage: Save=260.30ms
+[2017.11.18-12.30.20:150][565]LogSavePackage: Moving 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/BaseMapF4B255EF4726F8EB0A8C31A03A82E60D.tmp' to 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap'
+[2017.11.18-12.30.20:157][565]LogSavePackage: Display: Finished SavePackage Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap
+[2017.11.18-12.30.20:213][565]LogFileHelpers: Saving map 'BaseMap' took 0.463
+[2017.11.18-12.30.20:222][565]Cmd: MAP LOAD FILE="Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/House01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.18-12.30.20:223][565]LightingResults: New page: Lighting Build
+[2017.11.18-12.30.20:225][565]LoadErrors: New page: Loading map: House01.umap
+[2017.11.18-12.30.20:226][565]MapCheck: New page: Map Check
+[2017.11.18-12.30.20:226][565]LightingResults: New page: Lighting Build
+[2017.11.18-12.30.20:350][565]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.18-12.30.20:420][565]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.18-12.30.20:538][565]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 118.234ms to complete.
+[2017.11.18-12.30.20:538][565]LogFileHelpers: Loading map 'House01' took 0.325
+[2017.11.18-12.30.22:185][735]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.18-12.30.22:222][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.18-12.30.22:222][735]PIE: New page: PIE session: House01 (19 Nov 2017 10:30:22 am)
+[2017.11.18-12.30.22:222][735]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_House01
+[2017.11.18-12.30.22:272][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049348s)
+[2017.11.18-12.30.22:273][735]LogAIModule: Creating AISystem for world House01
+[2017.11.18-12.30.22:273][735]LogPlayLevel: PIE: World Init took: (0.001525s)
+[2017.11.18-12.30.22:274][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House01.House01 to /Game/Maps/UEDPIE_0_House01.House01 (0.051413s)
+[2017.11.18-12.30.22:312][735]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.18-12.30.22:326][735]LogInit: FAudioDevice initialized.
+[2017.11.18-12.30.22:360][735]LogLoad: Game class is 'FirstPersonGamemode_C'
+[2017.11.18-12.30.22:364][735]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House01.House01 up for play (max tick rate 0) at 2017.11.18-23.30.22
+[2017.11.18-12.30.22:364][735]LogWorld: Bringing up level for play took: 0.003397
+[2017.11.18-12.30.22:365][735]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.18-12.30.22:365][735]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.18-12.30.22:365][735]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.18-12.30.22:366][735]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.18-12.30.22:366][735]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_House01 0.618
+[2017.11.18-12.30.23:859][903]Cmd: LevelEditor.ToggleImmersive
+[2017.11.18-12.33.17:564][454]LogEditorViewport: Clicking on Actor (LMB): BP_InteractObject_C (BP_InteractObject8)
+[2017.11.18-12.33.21:817][887]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.18-12.33.21:832][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.18-12.33.21:832][887]PIE: New page: PIE session: House01 (19 Nov 2017 10:33:21 am)
+[2017.11.18-12.33.21:832][887]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_House01
+[2017.11.18-12.33.21:855][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023357s)
+[2017.11.18-12.33.21:856][887]LogAIModule: Creating AISystem for world House01
+[2017.11.18-12.33.21:856][887]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2017.11.18-12.33.21:856][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House01.House01 to /Game/Maps/UEDPIE_0_House01.House01 (0.024359s)
+[2017.11.18-12.33.21:888][887]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.18-12.33.21:900][887]LogInit: FAudioDevice initialized.
+[2017.11.18-12.33.21:932][887]LogLoad: Game class is 'FirstPersonGamemode_C'
+[2017.11.18-12.33.21:936][887]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House01.House01 up for play (max tick rate 0) at 2017.11.18-23.33.21
+[2017.11.18-12.33.21:936][887]LogWorld: Bringing up level for play took: 0.002613
+[2017.11.18-12.33.21:936][887]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.18-12.33.21:936][887]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.18-12.33.21:936][887]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.18-12.33.21:937][887]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.18-12.33.21:937][887]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_House01 0.19
+[2017.11.18-12.33.23:553][ 70]Cmd: LevelEditor.ToggleImmersive
+[2017.11.18-12.34.10:718][806]Cmd: SELECT NONE
+[2017.11.18-12.34.14:959][245]LogAIModule: Creating AISystem for world BaseMap
+[2017.11.18-12.34.14:995][245]Cmd: MAP LOAD FILE="Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Maps/BaseMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.18-12.34.14:995][245]LightingResults: New page: Lighting Build
+[2017.11.18-12.34.14:995][245]LoadErrors: New page: Loading map: BaseMap.umap
+[2017.11.18-12.34.14:996][245]MapCheck: New page: Map Check
+[2017.11.18-12.34.14:996][245]LightingResults: New page: Lighting Build
+[2017.11.18-12.34.15:100][245]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.18-12.34.15:151][245]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.18-12.34.15:236][245]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 84.873ms to complete.
+[2017.11.18-12.34.15:237][245]LogFileHelpers: Loading map 'BaseMap' took 0.243
+[2017.11.18-12.34.19:172][631]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.18-12.34.19:185][631]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.18-12.34.19:185][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.18-12.34.19:185][631]PIE: New page: PIE session: BaseMap (19 Nov 2017 10:34:19 am)
+[2017.11.18-12.34.19:186][631]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
+[2017.11.18-12.34.19:194][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008490s)
+[2017.11.18-12.34.19:195][631]LogAIModule: Creating AISystem for world BaseMap
+[2017.11.18-12.34.19:195][631]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2017.11.18-12.34.19:195][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.009418s)
+[2017.11.18-12.34.19:215][631]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.18-12.34.19:227][631]LogInit: FAudioDevice initialized.
+[2017.11.18-12.34.19:260][631]LogLoad: Game class is 'FirstPersonGamemode_C'
+[2017.11.18-12.34.19:263][631]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.18-23.34.19
+[2017.11.18-12.34.19:263][631]LogWorld: Bringing up level for play took: 0.001962
+[2017.11.18-12.34.19:264][631]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.18-12.34.19:264][631]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.18-12.34.19:264][631]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.18-12.34.19:264][631]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.18-12.34.19:265][631]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BaseMap -0.484
+[2017.11.18-12.34.19:265][631]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.18-12.34.20:950][820]Cmd: LevelEditor.ToggleImmersive
+[2017.11.18-12.35.48:446][288]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.18-12.35.48:522][288]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.18-12.36.08:338][424]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.18-12.36.08:370][424]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.18-12.36.08:370][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.18-12.36.08:371][424]PIE: New page: PIE session: BaseMap (19 Nov 2017 10:36:08 am)
+[2017.11.18-12.36.08:371][424]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BaseMap
+[2017.11.18-12.36.08:387][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016517s)
+[2017.11.18-12.36.08:388][424]LogAIModule: Creating AISystem for world BaseMap
+[2017.11.18-12.36.08:389][424]LogPlayLevel: PIE: World Init took: (0.001182s)
+[2017.11.18-12.36.08:389][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BaseMap.BaseMap to /Game/Maps/UEDPIE_0_BaseMap.BaseMap (0.018119s)
+[2017.11.18-12.36.08:428][424]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.18-12.36.08:447][424]LogInit: FAudioDevice initialized.
+[2017.11.18-12.36.08:485][424]LogLoad: Game class is 'FirstPersonGamemode_C'
+[2017.11.18-12.36.08:489][424]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.11.18-23.36.08
+[2017.11.18-12.36.08:490][424]LogWorld: Bringing up level for play took: 0.003651
+[2017.11.18-12.36.08:491][424]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.18-12.36.08:491][424]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.18-12.36.08:491][424]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.18-12.36.08:492][424]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.18-12.36.08:492][424]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BaseMap 0.744
+[2017.11.18-12.36.08:505][424]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.18-12.36.51:398][564]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.18-12.36.51:441][564]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.11.18-12.42.44:426][ 33]LogMaterial: Missing cached shader map for material Mat_Book, compiling. 
+[2017.11.18-12.42.44:497][ 33]LogMaterial: Missing cached shader map for material Mat_Book, compiling. 
+[2017.11.18-12.42.44:560][ 33]LogMaterial: Missing cached shader map for material Mat_Book, compiling. 
+[2017.11.18-12.42.44:618][ 33]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_Book, compiling. 
+[2017.11.18-12.42.45:606][ 33]TextureStreamingBuild: Display: Compiling optional shaders took 0.994 seconds.
+[2017.11.18-12.42.47:555][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mat_Book" FILE="Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Materials/Mat_Book.uasset" SILENT=true
+[2017.11.18-12.42.47:599][ 33]LogSavePackage: Save=15.00ms
+[2017.11.18-12.42.47:599][ 33]LogSavePackage: Moving 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/Mat_BookA4C717E545BA2A48F79CAB887DDE57F8.tmp' to 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Materials/Mat_Book.uasset'
+[2017.11.18-12.42.47:605][ 33]LogSavePackage: Display: Finished SavePackage Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Materials/Mat_Book.uasset
+[2017.11.18-12.42.48:560][ 34]Cmd: QUIT_EDITOR
+[2017.11.18-12.42.49:340][ 34]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.18-12.42.49:340][ 34]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.18-12.42.49:373][ 34]LogExit: Preparing to exit.
+[2017.11.18-12.42.50:756][ 34]LogExit: Editor shut down
+[2017.11.18-12.42.50:783][ 34]LogExit: Transaction tracking system shut down
+[2017.11.18-12.42.51:065][ 34]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.18-12.42.51:065][ 34]LogDirectoryWatcher: A directory notification for 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/' was aborted.
+[2017.11.18-12.42.51:066][ 34]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.18-12.42.51:066][ 34]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2017.11.18-12.42.51:066][ 34]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2017.11.18-12.42.51:066][ 34]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.18-12.42.51:066][ 34]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.18-12.42.51:241][ 34]LogExit: Object subsystem successfully closed.
+[2017.11.18-12.42.51:297][ 34]LogD3D11RHI: Shutdown
+[2017.11.18-12.42.51:297][ 34]LogD3D11RHI: CleanupD3DDevice
+[2017.11.18-12.42.51:310][ 34]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.18-12.42.51:339][ 34]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (556)
+[2017.11.18-12.42.51:340][ 34]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (554)
+[2017.11.18-12.42.51:340][ 34]LogModuleManager: Shutting down and abandoning module MaterialEditor (552)
+[2017.11.18-12.42.51:340][ 34]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (550)
+[2017.11.18-12.42.51:340][ 34]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2017.11.18-12.42.51:340][ 34]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2017.11.18-12.42.51:340][ 34]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2017.11.18-12.42.51:341][ 34]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2017.11.18-12.42.51:349][ 34]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2017.11.18-12.42.51:349][ 34]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2017.11.18-12.42.51:349][ 34]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2017.11.18-12.42.51:349][ 34]LogDirectoryWatcher: A directory notification for 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Collections/' was aborted.
+[2017.11.18-12.42.51:349][ 34]LogDirectoryWatcher: A directory notification for 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Content/Developers/i76800K/Collections/' was aborted.
+[2017.11.18-12.42.51:349][ 34]LogDirectoryWatcher: A directory notification for 'Z:/Projects/NoirMysteryHouse/GitHub/NoirMysteryGame/UE4/TestProject01/Saved/Collections/' was aborted.
+[2017.11.18-12.42.51:349][ 34]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2017.11.18-12.42.51:349][ 34]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2017.11.18-12.42.51:349][ 34]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2017.11.18-12.42.51:349][ 34]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2017.11.18-12.42.51:350][ 34]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2017.11.18-12.42.51:351][ 34]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2017.11.18-12.42.51:351][ 34]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2017.11.18-12.42.51:351][ 34]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2017.11.18-12.42.51:351][ 34]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2017.11.18-12.42.51:351][ 34]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2017.11.18-12.42.51:351][ 34]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2017.11.18-12.42.51:351][ 34]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2017.11.18-12.42.51:765][ 34]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2017.11.18-12.42.51:765][ 34]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2017.11.18-12.42.51:765][ 34]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2017.11.18-12.42.51:766][ 34]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2017.11.18-12.42.51:766][ 34]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2017.11.18-12.42.51:766][ 34]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2017.11.18-12.42.51:766][ 34]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2017.11.18-12.42.51:766][ 34]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2017.11.18-12.42.51:766][ 34]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2017.11.18-12.42.51:766][ 34]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2017.11.18-12.42.51:766][ 34]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2017.11.18-12.42.51:766][ 34]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2017.11.18-12.42.51:766][ 34]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2017.11.18-12.42.51:766][ 34]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2017.11.18-12.42.51:766][ 34]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2017.11.18-12.42.51:766][ 34]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2017.11.18-12.42.51:767][ 34]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2017.11.18-12.42.51:767][ 34]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2017.11.18-12.42.51:767][ 34]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2017.11.18-12.42.51:767][ 34]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2017.11.18-12.42.51:768][ 34]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2017.11.18-12.42.51:768][ 34]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2017.11.18-12.42.51:768][ 34]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2017.11.18-12.42.51:768][ 34]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2017.11.18-12.42.51:833][ 34]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2017.11.18-12.42.51:833][ 34]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2017.11.18-12.42.51:833][ 34]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2017.11.18-12.42.51:833][ 34]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2017.11.18-12.42.51:833][ 34]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2017.11.18-12.42.51:833][ 34]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2017.11.18-12.42.51:834][ 34]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2017.11.18-12.42.51:834][ 34]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2017.11.18-12.42.51:834][ 34]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2017.11.18-12.42.51:834][ 34]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2017.11.18-12.42.51:835][ 34]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2017.11.18-12.42.51:836][ 34]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2017.11.18-12.42.51:836][ 34]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2017.11.18-12.42.51:836][ 34]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2017.11.18-12.42.51:836][ 34]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2017.11.18-12.42.51:836][ 34]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2017.11.18-12.42.51:836][ 34]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2017.11.18-12.42.51:836][ 34]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2017.11.18-12.42.51:836][ 34]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2017.11.18-12.42.51:836][ 34]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2017.11.18-12.42.51:836][ 34]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2017.11.18-12.42.51:836][ 34]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2017.11.18-12.42.51:836][ 34]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2017.11.18-12.42.51:836][ 34]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2017.11.18-12.42.51:836][ 34]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2017.11.18-12.42.51:836][ 34]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2017.11.18-12.42.51:837][ 34]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2017.11.18-12.42.51:837][ 34]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2017.11.18-12.42.51:837][ 34]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2017.11.18-12.42.51:837][ 34]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2017.11.18-12.42.51:933][ 34]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2017.11.18-12.42.51:933][ 34]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2017.11.18-12.42.51:933][ 34]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2017.11.18-12.42.51:933][ 34]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2017.11.18-12.42.51:934][ 34]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2017.11.18-12.42.51:934][ 34]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2017.11.18-12.42.51:934][ 34]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2017.11.18-12.42.51:934][ 34]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2017.11.18-12.42.51:934][ 34]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2017.11.18-12.42.51:934][ 34]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2017.11.18-12.42.51:934][ 34]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2017.11.18-12.42.51:934][ 34]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2017.11.18-12.42.51:934][ 34]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2017.11.18-12.42.51:934][ 34]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2017.11.18-12.42.51:934][ 34]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2017.11.18-12.42.51:934][ 34]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2017.11.18-12.42.51:934][ 34]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2017.11.18-12.42.51:934][ 34]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2017.11.18-12.42.51:934][ 34]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2017.11.18-12.42.51:934][ 34]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2017.11.18-12.42.51:934][ 34]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2017.11.18-12.42.51:935][ 34]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2017.11.18-12.42.51:935][ 34]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2017.11.18-12.42.51:935][ 34]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2017.11.18-12.42.51:935][ 34]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2017.11.18-12.42.51:935][ 34]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2017.11.18-12.42.51:935][ 34]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2017.11.18-12.42.51:935][ 34]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2017.11.18-12.42.51:936][ 34]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2017.11.18-12.42.51:936][ 34]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2017.11.18-12.42.51:936][ 34]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2017.11.18-12.42.51:936][ 34]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2017.11.18-12.42.51:936][ 34]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2017.11.18-12.42.51:936][ 34]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2017.11.18-12.42.51:936][ 34]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2017.11.18-12.42.51:940][ 34]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2017.11.18-12.42.51:940][ 34]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2017.11.18-12.42.51:940][ 34]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2017.11.18-12.42.51:941][ 34]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2017.11.18-12.42.51:941][ 34]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2017.11.18-12.42.51:941][ 34]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2017.11.18-12.42.51:941][ 34]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2017.11.18-12.42.51:941][ 34]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2017.11.18-12.42.51:941][ 34]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2017.11.18-12.42.51:941][ 34]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2017.11.18-12.42.51:942][ 34]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2017.11.18-12.42.52:042][ 34]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2017.11.18-12.42.52:142][ 34]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2017.11.18-12.42.52:142][ 34]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2017.11.18-12.42.52:142][ 34]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2017.11.18-12.42.52:142][ 34]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2017.11.18-12.42.52:142][ 34]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2017.11.18-12.42.52:142][ 34]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2017.11.18-12.42.52:147][ 34]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2017.11.18-12.42.52:147][ 34]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2017.11.18-12.42.52:147][ 34]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2017.11.18-12.42.52:147][ 34]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2017.11.18-12.42.52:153][ 34]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2017.11.18-12.42.52:153][ 34]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2017.11.18-12.42.52:154][ 34]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2017.11.18-12.42.52:154][ 34]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2017.11.18-12.42.52:154][ 34]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2017.11.18-12.42.52:154][ 34]LogModuleManager: Shutting down and abandoning module Media (221)
+[2017.11.18-12.42.52:161][ 34]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2017.11.18-12.42.52:161][ 34]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2017.11.18-12.42.52:161][ 34]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2017.11.18-12.42.52:161][ 34]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2017.11.18-12.42.52:161][ 34]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2017.11.18-12.42.52:161][ 34]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2017.11.18-12.42.52:161][ 34]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2017.11.18-12.42.52:161][ 34]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2017.11.18-12.42.52:161][ 34]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2017.11.18-12.42.52:161][ 34]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2017.11.18-12.42.52:161][ 34]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2017.11.18-12.42.52:161][ 34]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2017.11.18-12.42.52:162][ 34]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2017.11.18-12.42.52:162][ 34]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2017.11.18-12.42.52:162][ 34]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2017.11.18-12.42.52:162][ 34]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2017.11.18-12.42.52:166][ 34]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2017.11.18-12.42.52:166][ 34]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2017.11.18-12.42.52:166][ 34]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2017.11.18-12.42.52:166][ 34]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2017.11.18-12.42.52:166][ 34]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2017.11.18-12.42.52:166][ 34]LogModuleManager: Shutting down and abandoning module Core (172)
+[2017.11.18-12.42.52:166][ 34]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2017.11.18-12.42.52:166][ 34]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2017.11.18-12.42.52:175][ 34]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.18-12.42.52:175][ 34]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2017.11.18-12.42.52:175][ 34]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2017.11.18-12.42.52:175][ 34]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2017.11.18-12.42.52:175][ 34]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2017.11.18-12.42.52:175][ 34]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2017.11.18-12.42.52:176][ 34]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2017.11.18-12.42.52:176][ 34]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2017.11.18-12.42.52:176][ 34]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2017.11.18-12.42.52:218][ 34]LogDerivedDataCache: Shutdown
+[2017.11.18-12.42.52:218][ 34]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2017.11.18-12.42.52:219][ 34]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2017.11.18-12.42.52:219][ 34]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2017.11.18-12.42.52:219][ 34]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2017.11.18-12.42.52:219][ 34]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2017.11.18-12.42.52:219][ 34]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2017.11.18-12.42.52:219][ 34]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2017.11.18-12.42.52:219][ 34]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2017.11.18-12.42.52:219][ 34]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2017.11.18-12.42.52:219][ 34]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2017.11.18-12.42.52:220][ 34]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2017.11.18-12.42.52:220][ 34]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2017.11.18-12.42.52:220][ 34]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2017.11.18-12.42.52:220][ 34]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2017.11.18-12.42.52:220][ 34]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2017.11.18-12.42.52:220][ 34]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2017.11.18-12.42.52:220][ 34]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2017.11.18-12.42.52:220][ 34]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2017.11.18-12.42.52:220][ 34]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2017.11.18-12.42.52:220][ 34]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2017.11.18-12.42.52:220][ 34]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2017.11.18-12.42.52:220][ 34]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2017.11.18-12.42.52:221][ 34]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2017.11.18-12.42.52:221][ 34]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2017.11.18-12.42.52:221][ 34]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2017.11.18-12.42.52:221][ 34]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2017.11.18-12.42.52:221][ 34]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2017.11.18-12.42.52:221][ 34]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2017.11.18-12.42.52:221][ 34]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2017.11.18-12.42.52:221][ 34]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2017.11.18-12.42.52:221][ 34]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2017.11.18-12.42.52:221][ 34]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2017.11.18-12.42.52:221][ 34]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2017.11.18-12.42.52:221][ 34]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2017.11.18-12.42.52:221][ 34]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2017.11.18-12.42.52:221][ 34]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2017.11.18-12.42.52:222][ 34]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2017.11.18-12.42.52:222][ 34]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2017.11.18-12.42.52:222][ 34]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2017.11.18-12.42.52:222][ 34]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2017.11.18-12.42.52:222][ 34]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2017.11.18-12.42.52:222][ 34]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2017.11.18-12.42.52:222][ 34]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2017.11.18-12.42.52:222][ 34]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2017.11.18-12.42.52:222][ 34]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2017.11.18-12.42.52:222][ 34]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2017.11.18-12.42.52:222][ 34]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2017.11.18-12.42.52:223][ 34]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2017.11.18-12.42.52:223][ 34]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2017.11.18-12.42.52:223][ 34]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.18-12.42.52:223][ 34]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.18-12.42.52:223][ 34]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.18-12.42.52:223][ 34]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.18-12.42.52:223][ 34]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.18-12.42.52:223][ 34]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B52E6594D-41B2-2F3D-C13C-EDBC997B51F1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.1-3754814%2B%2B%2BUE4%2BRelease-4.18&UserID=57aa081e435c4cdc5a44498cafb0fa35%7C78a9ffbfba9b4caa8852544704c6e62b%7Cc080eec3-8227-4eee-904d-4dd80e7ceba2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.18-12.42.52:239][ 34]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.18-12.42.52:244][ 34]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.18-12.42.52:244][ 34]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.18-12.42.52:244][ 34]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.18-12.42.52:244][ 34]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.18-12.42.52:244][ 34]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.18-12.42.52:244][ 34]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.18-12.42.52:244][ 34]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.18-12.42.52:254][ 34]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.18-12.42.52:255][ 34]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.18-12.42.52:255][ 34]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.18-12.42.52:255][ 34]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.18-12.42.52:255][ 34]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.18-12.42.52:255][ 34]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.18-12.42.52:255][ 34]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.18-12.42.52:255][ 34]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.18-12.42.52:255][ 34]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.18-12.42.52:255][ 34]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.18-12.42.52:255][ 34]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.18-12.42.52:268][ 34]LogExit: Exiting.
+[2017.11.18-12.42.52:291][ 34]Log file closed, 11/18/17 23:42:52
